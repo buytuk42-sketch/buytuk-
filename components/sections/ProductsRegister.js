@@ -36,7 +36,10 @@ export default function ProductsRegister({ locale, t, products, limit, headingLe
   return (
     <div className="grid grid--2">
       {rows.map((product, index) => (
-        <Reveal key={product.slug} className="card card--feature" delay={index * 60}>
+        <Reveal key={product.slug} className="card card--feature product-card" delay={index * 60}>
+          <span className="product-card__index" aria-hidden="true">
+            {String(index + 1).padStart(2, '0')}
+          </span>
           <div className="row row--between" style={{ marginBottom: 'var(--sp-4)' }}>
             {isCapability ? (
               <span className="chip chip--research">
