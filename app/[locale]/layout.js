@@ -17,7 +17,7 @@ export function generateStaticParams() {
  * that no route can ever ship without a canonical, an OG card or a robots hint.
  */
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   if (!isLocale(locale)) return {};
   const isAr = locale === 'ar';
 
@@ -84,8 +84,8 @@ export const viewport = {
   colorScheme: 'dark'
 };
 
-export default function LocaleLayout({ children, params }) {
-  const { locale } = params;
+export default async function LocaleLayout({ children, params }) {
+  const { locale } = await params;
   const dir = getDirection(locale);
 
   return (

@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
   const product = await getProduct(slug, locale);
   if (!product) return buildMetadata({ locale, path: `/products/${slug}`, title: 'BuyTuk', description: '' });
   return buildMetadata({
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ProductDetail({ params }) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
   const t = getTranslator(locale);
   const product = await getProduct(slug, locale);
 

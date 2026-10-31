@@ -15,13 +15,13 @@ buytuk-flagship/
 ├── content/cms/    committed JSON = the fallback content source
 ├── lib/            i18n, cms, seo, site, analytics
 ├── public/         icon, og image, static assets
-├── middleware.js   locale routing + security headers
+├── proxy.js        locale routing
 └── package.json
 ```
 
-- **Node.js 18.17+ required** (built and verified on v22.23.2).
+- **Node.js 20.9+ required** (the current Next.js 16 minimum).
 - Install with `npm ci` if a lockfile is present, otherwise `npm install`.
-- The project is a standard Next.js 14 app: it deploys unchanged to Vercel, Netlify, Fly.io, Render, a Docker host, or any Node 18+ server.
+- The project uses Next.js 16 App Router and deploys to Vercel or another Node.js host that meets the engine requirement.
 
 ## 2–4. Environment variables
 
@@ -49,7 +49,7 @@ Secrets are read only inside server code; the smoke test asserts none of them ap
 npm ci
 npm run build          # must end with "Compiled successfully" and list the route table
 ```
-Check the generated route table for the exact route count. In the recorded build output, 35 pages were generated and shared First Load JS was ≈87.4 kB. Three.js should remain absent from the shared bundle (it is dynamically imported only when the 3D scene qualifies).
+Check the generated route table for the exact route count. In the latest verified build, 34 routes were generated. Three.js should remain absent from the shared bundle (it is dynamically imported only when the 3D scene qualifies).
 
 ## 6. Deploy
 

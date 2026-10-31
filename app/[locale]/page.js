@@ -9,7 +9,7 @@ import AllSections from '@/components/sections/AllSections';
  * with no canonical at all.
  */
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = getTranslator(locale);
   return buildMetadata({
     locale,
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Home({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = getTranslator(locale);
   const hero = await getHeroContent(locale);
 

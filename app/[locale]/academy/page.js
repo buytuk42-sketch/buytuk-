@@ -6,7 +6,7 @@ import { getTranslator } from '@/lib/i18n';
 import { buildMetadata, breadcrumbJsonLd } from '@/lib/seo';
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = getTranslator(locale);
   return buildMetadata({
     locale,
@@ -16,8 +16,8 @@ export async function generateMetadata({ params }) {
   });
 }
 
-export default function AcademyPage({ params }) {
-  const { locale } = params;
+export default async function AcademyPage({ params }) {
+  const { locale } = await params;
   const t = getTranslator(locale);
   const isAr = locale === 'ar';
 

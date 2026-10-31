@@ -236,7 +236,7 @@ for (const p of ['/ar/offline', '/en/offline']) {
 const arHtml2 = (await req('/ar')).text;
 check('PWA: <link rel="manifest"> in HTML', /rel="manifest"/i.test(arHtml2));
 check('PWA: theme-color meta in HTML', /name="theme-color"/i.test(arHtml2));
-check('PWA: apple-mobile-web-app-capable meta', /apple-mobile-web-app-capable/i.test(arHtml2));
+check('PWA: mobile web app capable meta', /name="(?:apple-)?mobile-web-app-capable"/i.test(arHtml2));
 check('PWA: apple-mobile-web-app-title meta', /apple-mobile-web-app-title/i.test(arHtml2));
 check('SEO kept: canonical still present', /rel="canonical"/i.test(arHtml2));
 check('SEO kept: hreflang still present', /hreflang="(ar|en|x-default)"/i.test(arHtml2));

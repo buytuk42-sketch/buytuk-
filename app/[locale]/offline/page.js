@@ -9,9 +9,10 @@ export async function generateStaticParams() {
 
 export const metadata = { title: 'غير متصل — BuyTuk' };
 
-export default function OfflinePage({ params }) {
-  if (!isLocale(params.locale)) notFound();
-  const ar = params.locale === 'ar';
+export default async function OfflinePage({ params }) {
+  const { locale } = await params;
+  if (!isLocale(locale)) notFound();
+  const ar = locale === 'ar';
   return (
     <main id="main" dir={ar ? 'rtl' : 'ltr'} className="container section" style={{ minHeight: '60vh', display: 'grid', placeItems: 'center' }}>
       <div className="card" style={{ maxWidth: 620, padding: 'var(--sp-6)', textAlign: 'center' }}>

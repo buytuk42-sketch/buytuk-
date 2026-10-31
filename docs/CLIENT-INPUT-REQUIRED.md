@@ -98,7 +98,7 @@ Fill the **Your value** column and send it back. "Status" is pre-set by the buil
 
 | Area | Done |
 |---|---|
-| Engineering | Next.js 14 App Router, 35 generated pages in the saved build log; latest changes require a fresh build |
+| Engineering | Next.js 16.4.3 App Router; production build and 118-check smoke test passed |
 | Engineering | Routes, API validation, rate limit, honeypot, error handling |
 | Engineering | CMS **three-state** fallback (missing / present / failing) — website never breaks |
 | Design | Desktop, mobile, tablet, RTL, LTR, 3D fallback, reduced motion, 3D isolation from the initial bundle |

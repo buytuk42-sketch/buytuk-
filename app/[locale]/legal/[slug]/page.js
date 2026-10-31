@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
   const doc = await getLegalDoc(slug);
   if (!doc) return buildMetadata({ locale, path: `/legal/${slug}`, title: 'BuyTuk', description: '' });
   return buildMetadata({
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
  * published — never a placeholder legal text (brief §6 / Phase 6).
  */
 export default async function LegalDocument({ params }) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
   const doc = await getLegalDoc(slug);
   if (!doc) notFound();
 
