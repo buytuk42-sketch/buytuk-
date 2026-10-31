@@ -1,0 +1,31 @@
+{
+  "$comment": "Official company data (brief §6 / Phase 6). NOTHING is published until BuyTuk supplies it and an operator flips `published` to true. The UI renders only fields that are non-null AND published — it never invents a placeholder address or phone number.",
+  "published": false,
+  "displayName": "BuyTuk",
+  "legalName": null,
+  "legalForm": null,
+  "registrationNumber": null,
+  "vatNumber": null,
+  "registeredAddress": null,
+  "city": null,
+  "country": null,
+  "postalCode": null,
+  "email": {
+    "general": null,
+    "sales": null,
+    "partnerships": null,
+    "press": null,
+    "careers": null,
+    "privacy": null
+  },
+  "phone": {
+    "main": null,
+    "support": null
+  },
+  "hours": null,
+  "languages": ["ar", "en"],
+  "pendingNote": {
+    "en": "Official email addresses, phone numbers and the registered address are pending client confirmation and are intentionally not published.",
+    "ar": "البريد الرسمي وأرقام الهاتف والعنوان المسجّل بانتظار تأكيد العميل، ولذلك لا تُنشر عن قصد."
+  }
+}

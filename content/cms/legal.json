@@ -1,0 +1,55 @@
+{
+  "$comment": "Legal documents (brief §6 / Phase 6). Each document stays UNPUBLISHED until real, reviewed text is supplied. While `published: false`, /legal/<slug> returns a 404 and the footer does not link to it — a placeholder legal page is worse than no legal page.",
+  "privacy": {
+    "slug": "privacy",
+    "published": false,
+    "title": { "en": "Privacy Policy", "ar": "سياسة الخصوصية" },
+    "summary": {
+      "en": "How BuyTuk collects, uses and protects personal data.",
+      "ar": "كيف تجمع BuyTuk البيانات الشخصية وتستخدمها وتحميها."
+    },
+    "lastUpdated": null,
+    "effectiveDate": null,
+    "body": null,
+    "owner": null
+  },
+  "terms": {
+    "slug": "terms",
+    "published": false,
+    "title": { "en": "Terms of Use", "ar": "شروط الاستخدام" },
+    "summary": {
+      "en": "The terms governing use of BuyTuk websites and products.",
+      "ar": "الشروط المنظّمة لاستخدام مواقع BuyTuk ومنتجاتها."
+    },
+    "lastUpdated": null,
+    "effectiveDate": null,
+    "body": null,
+    "owner": null
+  },
+  "cookies": {
+    "slug": "cookies",
+    "published": false,
+    "title": { "en": "Cookie Policy", "ar": "سياسة ملفات تعريف الارتباط" },
+    "summary": {
+      "en": "Which cookies and local-storage keys this site uses, and why.",
+      "ar": "ملفات تعريف الارتباط ومفاتيح التخزين المحلي التي يستخدمها هذا الموقع وأسبابها."
+    },
+    "lastUpdated": null,
+    "effectiveDate": null,
+    "body": null,
+    "owner": null
+  },
+  "accessibility": {
+    "slug": "accessibility",
+    "published": false,
+    "title": { "en": "Accessibility Statement", "ar": "بيان إمكانية الوصول" },
+    "summary": {
+      "en": "Our accessibility conformance targets and how to report a barrier.",
+      "ar": "أهدافنا في مطابقة معايير إمكانية الوصول وكيفية الإبلاغ عن أي عائق."
+    },
+    "lastUpdated": null,
+    "effectiveDate": null,
+    "body": null,
+    "owner": null
+  }
+}

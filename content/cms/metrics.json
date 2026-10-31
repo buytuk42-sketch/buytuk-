@@ -1,0 +1,8 @@
+[
+  { "id": "active-users", "label": "Active users", "value": null, "verified": false, "evidence": [] },
+  { "id": "products-live", "label": "Products in Live status", "value": null, "verified": false, "evidence": [] },
+  { "id": "projects-delivered", "label": "Projects delivered", "value": null, "verified": false, "evidence": [] },
+  { "id": "markets-served", "label": "Markets served", "value": null, "verified": false, "evidence": [] },
+  { "id": "institutions", "label": "Partner institutions", "value": null, "verified": false, "evidence": [] },
+  { "id": "uptime", "label": "Measured uptime", "value": null, "verified": false, "evidence": [] }
+]

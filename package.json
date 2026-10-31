@@ -1,0 +1,22 @@
+{
+  "name": "buytuk-flagship",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BuyTuk Global — Digital Flagship Experience (Arabic RTL + English LTR)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "qa:build": "next build"
+  },
+  "dependencies": {
+    "@react-three/fiber": "8.17.10",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

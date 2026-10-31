@@ -1,0 +1,14 @@
+{
+  "$comment": "Social accounts (brief §7 / Phase 7). NO username or URL may be guessed. Each entry must be supplied by BuyTuk, opened manually to confirm it is the official account, and only then set published:true + verified:true. Empty array = the footer renders no social icons at all (correct current state).",
+  "published": false,
+  "accounts": [],
+  "schema": {
+    "platform": "linkedin | x | instagram | youtube | facebook | tiktok | github | other",
+    "url": "https://... (must open the official account)",
+    "handle": "@handle as displayed on the account",
+    "locale": "ar | en | both",
+    "verified": "true only after a human opened the URL and confirmed ownership",
+    "published": "true to render it in the footer",
+    "checkedAt": "ISO date of the manual check"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$comment": "Case-study architecture (brief §16). One entry = one documented delivery. An entry is rendered ONLY when published === true AND permission === true AND verified === true. Until then the Projects 'verified' block stays empty on purpose. Nothing here is prefilled: no client, outcome, screenshot or date is ever invented.",
+  "$schema": {
+    "slug": "string, url-safe",
+    "client": { "name": "string (may be withheld)", "publishName": "bool", "industry": "string" },
+    "title": "bilingual {ar,en}",
+    "problem": "bilingual {ar,en}",
+    "solution": "bilingual {ar,en}",
+    "buytukContribution": "bilingual {ar,en}",
+    "technologies": ["string"],
+    "outcome": { "summary": "bilingual {ar,en}", "metrics": [{ "label": "bilingual", "value": "string", "source": "url REQUIRED" }] },
+    "screenshots": [{ "src": "url", "alt": "bilingual", "permission": "bool" }],
+    "date": "YYYY-MM or YYYY-MM-DD",
+    "verificationStatus": "verified | unverified",
+    "permission": "true only with written client approval",
+    "published": "true only when all of the above hold"
+  },
+  "items": []
+}

@@ -1,0 +1,29 @@
+{
+ "smoke_pass": 65,
+ "smoke_fail": 0,
+ "asset_errors": 0,
+ "document_404_only": 1,
+ "overflow_measured": {},
+ "lighthouse_local": {
+  "ar": {
+   "performance": 81,
+   "accessibility": 100,
+   "best_practices": 100,
+   "seo": 100,
+   "FCP": "3.5 s",
+   "LCP": "3.7 s",
+   "CLS": "0.039",
+   "TBT": "40 ms"
+  },
+  "en": {
+   "performance": 92,
+   "accessibility": 100,
+   "best_practices": 100,
+   "seo": 100,
+   "FCP": "2.6 s",
+   "LCP": "2.6 s",
+   "CLS": "0.003",
+   "TBT": "0 ms"
+  }
+ }
+}

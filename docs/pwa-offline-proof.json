@@ -1,0 +1,26 @@
+{
+  "offlinePageTitles": {
+    "ar": "لا يوجد اتصال بالإنترنت",
+    "en": "You are offline"
+  },
+  "ar": {
+    "swRegistered": true,
+    "controlled": true,
+    "cachedRevisitStatus": 200,
+    "cachedRevisitTitle": "نبني ما يأتي بعد ذلك",
+    "uncachedStatus": 200,
+    "uncachedTitle": "لا يوجد اتصال بالإنترنت",
+    "showsOfflineFallbackPage": true,
+    "error": ""
+  },
+  "en": {
+    "swRegistered": true,
+    "controlled": true,
+    "cachedRevisitStatus": 200,
+    "cachedRevisitTitle": "We Build What Comes Next",
+    "uncachedStatus": 200,
+    "uncachedTitle": "You are offline",
+    "showsOfflineFallbackPage": true,
+    "error": ""
+  }
+}

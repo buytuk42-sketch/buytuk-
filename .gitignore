@@ -147,3 +147,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# BuyTuk project-specific generated files
+.vercel/
+.turbo/
+build/
+.DS_Store
+next-env.d.ts

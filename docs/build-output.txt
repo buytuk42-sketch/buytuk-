@@ -1,0 +1,60 @@
+
+> buytuk-flagship@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/35) ...
+   Generating static pages (8/35) 
+   Generating static pages (17/35) 
+   Generating static pages (26/35) 
+ ✓ Generating static pages (35/35)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /_not-found                          873 B          88.3 kB
+├ ● /[locale]                            3.15 kB         106 kB
+├   ├ /ar
+├   └ /en
+├ ● /[locale]/academy                    193 B           103 kB
+├   ├ /ar/academy
+├   └ /en/academy
+├ ● /[locale]/ai-lab                     2.88 kB        99.8 kB
+├   ├ /ar/ai-lab
+├   └ /en/ai-lab
+├ ● /[locale]/legal                      2.88 kB        99.8 kB
+├   ├ /ar/legal
+├   └ /en/legal
+├ ● /[locale]/legal/[slug]               2.88 kB        99.8 kB
+├ ● /[locale]/offline                    138 B          87.6 kB
+├   ├ /ar/offline
+├   └ /en/offline
+├ ● /[locale]/products                   2.88 kB        99.8 kB
+├   ├ /ar/products
+├   └ /en/products
+├ ● /[locale]/products/[slug]            2.88 kB        99.8 kB
+├   ├ /ar/products/buytuk-academy
+├   ├ /en/products/buytuk-academy
+├   ├ /ar/products/buytuk-ai
+├   └ [+13 more paths]
+├ ƒ /api/contact                         0 B                0 B
+├ ○ /manifest.webmanifest                0 B                0 B
+├ ○ /robots.txt                          0 B                0 B
+└ ○ /sitemap.xml                         0 B                0 B
++ First Load JS shared by all            87.4 kB
+  ├ chunks/117-3bc6412bdab2fce8.js       31.7 kB
+  ├ chunks/fd9d1056-6952ca70748862da.js  53.6 kB
+  └ other shared chunks (total)          2.06 kB
+
+
+ƒ Middleware                             26.8 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+

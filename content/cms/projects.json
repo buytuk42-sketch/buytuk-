@@ -1,0 +1,5 @@
+{
+  "$comment": "Four explicit classes: verified (documented delivered work), products (owned BuyTuk register), capabilities (what BuyTuk can build), concepts (future). NOTHING is promoted to `verified` here; that list is empty by design until BuyTuk supplies attribution and evidence. The UI derives products/capabilities from the product register so the two sections can never drift, and renders an honest empty state for verified work.",
+  "verified": [],
+  "items": []
+}

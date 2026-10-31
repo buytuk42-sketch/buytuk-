@@ -1,0 +1,778 @@
+{
+  "meta": {
+    "title": "BuyTuk — a global technology company and digital ecosystem",
+    "description": "BuyTuk builds and operates integrated products, platforms and digital solutions across many sectors: education, engineering, construction, architecture, healthcare, sports, business, e-commerce and intelligent systems.",
+    "ogAlt": "BuyTuk — technology flagship"
+  },
+  "brand": {
+    "name": "BuyTuk",
+    "tagline": "We Build What Comes Next",
+    "taglineLocalized": "We Build What Comes Next",
+    "legalPending": "Legal entity details pending client documentation"
+  },
+  "nav": {
+    "home": "Home",
+    "statement": "Statement",
+    "whatIs": "What is BuyTuk",
+    "ecosystem": "Ecosystem",
+    "technology": "Technology",
+    "ai": "AI",
+    "aiLab": "AI Lab",
+    "products": "Products",
+    "projects": "Projects",
+    "journey": "Journey",
+    "metrics": "Metrics",
+    "industries": "Industries",
+    "academy": "Academy",
+    "lab": "Innovation Lab",
+    "infrastructure": "Infrastructure",
+    "insights": "Insights",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to main content"
+  },
+  "labels": {
+    "status": {
+      "live": "Live",
+      "in-development": "In Development",
+      "research": "Research",
+      "coming-soon": "Coming Soon"
+    },
+    "unverified": "Pending documentation",
+    "verified": "Documented",
+    "viewProduct": "View product",
+    "console": "Console",
+    "notFound": "Page not found",
+    "notFoundBody": "The page you requested does not exist, or the product is not published yet.",
+    "backHome": "Back to home",
+    "reducedMotionToggle": "Motion",
+    "motionOn": "Motion on",
+    "motionOff": "Motion reduced",
+    "language": "Language",
+    "pendingNotice": "Placeholder content — awaiting client documentation",
+    "evidence": "Evidence",
+    "updated": "Updated",
+    "readMore": "Read more",
+    "comingSoonBody": "Structure ready — content wired to the CMS and awaiting verified input.",
+    "capability": "Capability",
+    "servicesClass": "Service"
+  },
+  "hero": {
+    "eyebrow": "Global technology flagship",
+    "statement": "We Build What Comes Next",
+    "sub": "BuyTuk builds a portfolio of products, platforms and digital experiences — from artificial intelligence and cloud infrastructure to business and education systems, engineered for scale.",
+    "ctaPrimary": "Explore the ecosystem",
+    "ctaSecondary": "Talk to BuyTuk",
+    "scroll": "Scroll",
+    "staticFallback": "Static rendering — 3D disabled for this device or motion preference.",
+    "logoReveal": "BuyTuk",
+    "a11yCanvas": "Decorative BuyTuk 3D visual"
+  },
+  "statement": {
+    "eyebrow": "Statement",
+    "line": "We build what comes next.",
+    "body": "One technology ecosystem: products and platforms we own and operate, digital solutions designed around the use case, and an AI layer we run — across many sectors, on an evidence-first method.",
+    "identity": "A global technology company and digital ecosystem",
+    "identityBody": "BuyTuk is not one platform and not a brochure site. It is an ecosystem that builds integrated products, platforms and digital solutions for many sectors and users."
+  },
+  "whatIs": {
+    "eyebrow": "What is BuyTuk?",
+    "title": "A technology company and digital ecosystem, not a brochure site",
+    "body": "BuyTuk builds and operates its own products and platforms, and designs digital solutions for industries. This platform you are reading runs on the same architecture we use in our products: one component system, an independent content layer, measurable performance budgets, and an explicit separation between live, in-development, research and concept work.",
+    "pillars": [
+      {
+        "title": "Owned products and platforms",
+        "body": "Products and platforms BuyTuk builds and operates, each with a declared lifecycle state."
+      },
+      {
+        "title": "Solutions and digital capabilities",
+        "body": "Solutions shaped around an organisation, a professional or a sector: websites, stores, apps, systems, platforms."
+      },
+      {
+        "title": "Applied technology",
+        "body": "AI, cloud, automation and data used to solve specific, measurable problems."
+      },
+      {
+        "title": "Evidence first",
+        "body": "No project, number or client is presented as delivered before its documentation is attached."
+      }
+    ],
+    "readme": {
+      "title": "Honesty rule applied on this site",
+      "body": "Every product, metric and milestone on this site is flagged as Documented or Pending documentation. Anything not yet proven is rendered as a clearly marked placeholder instead of an unverifiable claim."
+    }
+  },
+  "ecosystem": {
+    "eyebrow": "Ecosystem map",
+    "title": "One ecosystem, many sectors",
+    "body": "BuyTuk is an ecosystem of interlocking layers: owned products and platforms, an applied-AI layer, product engineering, technical infrastructure and an innovation lab — and those layers extend across many sectors by use case.",
+    "layerLabel": "Layers",
+    "sectorLabel": "Sectors we build for",
+    "nodes": [
+      {
+        "title": "BuyTuk Academy",
+        "body": "An education platform inside the ecosystem: student, teacher, school and administration on one evidence chain."
+      },
+      {
+        "title": "BuyTuk AI",
+        "body": "The applied-AI layer: assistance, analysis and automation — assistive by design, with human review."
+      },
+      {
+        "title": "Products & platforms",
+        "body": "Owned digital products and platforms, each with a declared lifecycle state."
+      },
+      {
+        "title": "Digital solutions",
+        "body": "Solutions shaped around an organisation, a project or a sector — not off-the-shelf templates."
+      },
+      {
+        "title": "Engineering & infrastructure",
+        "body": "Cloud, APIs, data, web, mobile, automation and security."
+      },
+      {
+        "title": "Innovation lab",
+        "body": "Experiments and prototypes that graduate — or do not — into products."
+      },
+      {
+        "title": "Global presence",
+        "body": "Arabic and English, in right-to-left and left-to-right layouts."
+      }
+    ],
+    "sectors": [
+      "Education",
+      "Engineering",
+      "Construction",
+      "Architecture",
+      "Infrastructure",
+      "Healthcare",
+      "Sports",
+      "Business",
+      "E-Commerce",
+      "Professional services",
+      "Artificial intelligence"
+    ]
+  },
+  "technology": {
+    "eyebrow": "Technology",
+    "title": "The engine room",
+    "body": "Two layers, kept separate on purpose: the stack this delivered platform is built on (verifiable today), and BuyTuk's internal production architecture (awaiting client documentation).",
+    "disciplineLabel": "Disciplines",
+    "stackLabel": "This platform — verifiable",
+    "internalLabel": "BuyTuk production architecture — pending documentation",
+    "disciplines": [
+      {
+        "key": "ai",
+        "title": "AI",
+        "body": "Applied models with human review in the loop, plus explicit separation of production, prototype and research."
+      },
+      {
+        "key": "cloud",
+        "title": "Cloud",
+        "body": "Deployable on edge and serverless platforms with managed caching and regional delivery."
+      },
+      {
+        "key": "apis",
+        "title": "APIs",
+        "body": "Contract-first HTTP interfaces, validated payloads and typed content schemas."
+      },
+      {
+        "key": "automation",
+        "title": "Automation",
+        "body": "Repetitive workflows converted into deterministic pipelines with observable output."
+      },
+      {
+        "key": "data",
+        "title": "Data",
+        "body": "Privacy-respecting event collection with a fixed, small event vocabulary."
+      },
+      {
+        "key": "web",
+        "title": "Web",
+        "body": "Semantic, accessible, server-rendered interfaces with performance budgets."
+      },
+      {
+        "key": "mobile",
+        "title": "Mobile",
+        "body": "Mobile-first interaction design, not a shrunken desktop layout."
+      },
+      {
+        "key": "infrastructure",
+        "title": "Infrastructure",
+        "body": "Static-first delivery, edge caching and immutable asset pipelines."
+      },
+      {
+        "key": "security",
+        "title": "Security",
+        "body": "Strict headers, CSP, input validation and server-side secrets only."
+      },
+      {
+        "key": "scale",
+        "title": "Scalability",
+        "body": "Split content, presentation and delivery so each scales independently."
+      }
+    ],
+    "stack": [
+      "Next.js App Router (server components, SSG + ISR)",
+      "React 18 + a token-driven CSS design system",
+      "Three.js / React Three Fiber, lazily initialised",
+      "Headless CMS content layer with committed JSON fallback",
+      "AVIF/WebP responsive images, font and code splitting",
+      "JSON-LD, sitemap, robots, hreflang, canonical URLs"
+    ],
+    "pending": [
+      "Production cloud provider and regions",
+      "Database and data-warehouse choices",
+      "Model providers and inference topology",
+      "CI/CD and release process",
+      "Observability and incident tooling"
+    ]
+  },
+  "ai": {
+    "eyebrow": "Artificial Intelligence",
+    "title": "AI as a layer inside the ecosystem",
+    "body": "Inside BuyTuk, AI is a technology layer used across education, engineering, business, analysis, automation and upcoming products — a multiplier of human judgement, never a replacement. It is a capability inside the company, not the identity of the company.",
+    "principleTitle": "The principle",
+    "principleBody": "AI assists, humans decide. Every AI surface on this site discloses which stage it is actually at.",
+    "stages": [
+      {
+        "key": "production",
+        "title": "Production",
+        "body": "Running today, with real users and documented outcomes."
+      },
+      {
+        "key": "prototype",
+        "title": "Prototype",
+        "body": "Functioning build under evaluation; not yet a public commitment."
+      },
+      {
+        "key": "research",
+        "title": "Research",
+        "body": "Exploration of feasibility, methods and risk."
+      },
+      {
+        "key": "future",
+        "title": "Future concepts",
+        "body": "Directions we intend to explore; no deliverable claimed."
+      }
+    ],
+    "cta": "Open the AI Lab",
+    "positioning": "AI is a technology layer inside the ecosystem"
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Products, platforms and solutions register",
+    "body": "Every entry carries a name, description, declared class (product, platform, capability, solution), the problem it solves, its features and its technology. Concepts and solutions are presented as such, never as delivered work.",
+    "empty": "The product register is wired to the CMS and ready. Entries appear once the client supplies documented product data.",
+    "problem": "Problem it solves",
+    "features": "Features",
+    "technology": "Technology",
+    "screenshots": "Screenshots",
+    "caseStudy": "Case study",
+    "noScreenshots": "Screenshots pending client supply",
+    "noCaseStudy": "No documented case study yet",
+    "all": "All"
+  },
+  "projects": {
+    "eyebrow": "Work and evidence",
+    "title": "What is delivered, what is a product, what is a capability",
+    "body": "Four classes that never blur: documented delivered projects, products and platforms, digital capabilities, and upcoming concepts.",
+    "verifiedLabel": "Documented delivered projects",
+    "verifiedEmpty": "No delivered projects are published yet. A project appears here only with attribution, a source and documentation, so this block is empty by design.",
+    "productsLabel": "BuyTuk products and platforms",
+    "productsNote": "Taken from the register above — each with a declared lifecycle state.",
+    "capabilitiesLabel": "Digital capabilities and solutions",
+    "capabilitiesNote": "Things we can build. Not delivered projects and not client references.",
+    "conceptsLabel": "Upcoming or in-research concepts",
+    "conceptsNote": "Ideas and cases under study or in development, presented exactly as such.",
+    "empty": "No projects published yet. This section reads from the CMS and is ready for documented entries."
+  },
+  "journey": {
+    "eyebrow": "Company journey",
+    "title": "Where we are",
+    "body": "Dates and milestones below are a proposed structure, not a verified history. Every row waits for client confirmation before it goes public.",
+    "disclaimer": "Proposed structure — awaiting client confirmation of dates and milestone wording.",
+    "statusLabel": "Status"
+  },
+  "metrics": {
+    "eyebrow": "Verified metrics",
+    "title": "Numbers we can prove",
+    "body": "This section is deliberately empty of figures. A number is published here only once it is documented and attributable.",
+    "rule": "Policy: an undocumented number is never displayed as an achievement.",
+    "pending": "Awaiting documentation",
+    "pendingShort": "Pending"
+  },
+  "industries": {
+    "eyebrow": "Sectors",
+    "title": "Sectors we build digital solutions for",
+    "body": "We treat every sector as a use case with its own requirements. The list below is a coverage and capability list, not a list of delivered clients.",
+    "segments": [
+      {
+        "title": "Education",
+        "note": "We build education platforms — BuyTuk Academy is one example. (Capability)",
+        "links": [
+          "#academy",
+          "Educational platforms",
+          "Teacher platforms",
+          "AI in education"
+        ]
+      },
+      {
+        "title": "Engineering",
+        "note": "We build digital engineering tools and systems for practices and teams. (Capability)",
+        "links": [
+          "Engineering systems",
+          "Project management systems",
+          "Cost & feasibility solutions",
+          "#technology"
+        ]
+      },
+      {
+        "title": "Construction",
+        "note": "We build project management, site tracking and reporting systems. (Capability)",
+        "links": [
+          "Project management systems",
+          "Site tracking",
+          "Delivery reporting"
+        ]
+      },
+      {
+        "title": "Infrastructure",
+        "note": "We build operations, asset monitoring and maintenance tooling. (Capability)",
+        "links": [
+          "Operations tooling",
+          "Asset monitoring",
+          "Preventive maintenance"
+        ]
+      },
+      {
+        "title": "Architecture",
+        "note": "We build digital presentation and portfolio platforms for architectural work. (Capability)",
+        "links": [
+          "Portfolio platforms",
+          "Digital exhibitions",
+          "#solutions"
+        ]
+      },
+      {
+        "title": "Healthcare",
+        "note": "We build digital sites and services for clinics and centres, with explicit restraint around patient data. (Capability)",
+        "links": [
+          "Clinic websites",
+          "Booking & appointments",
+          "Patient-data protection"
+        ]
+      },
+      {
+        "title": "Sports",
+        "note": "We build platforms for clubs, activities and memberships. (Capability)",
+        "links": [
+          "Club platforms",
+          "Activities & memberships",
+          "#solutions"
+        ]
+      },
+      {
+        "title": "Business",
+        "note": "We build corporate websites and internal operating systems. (Capability)",
+        "links": [
+          "Corporate websites",
+          "Internal operating systems",
+          "#solutions"
+        ]
+      },
+      {
+        "title": "Entrepreneurship",
+        "note": "We build first digital products and business decision-support tools. (Capability)",
+        "links": [
+          "First digital products",
+          "Decision-support tools",
+          "#solutions"
+        ]
+      },
+      {
+        "title": "E-Commerce",
+        "note": "We build stores and complete buying journeys. (Capability)",
+        "links": [
+          "E-commerce stores",
+          "Payment & shipping",
+          "Inventory management"
+        ]
+      },
+      {
+        "title": "Professional Services",
+        "note": "We build websites, bookings and operating systems for doctors, engineers and consultants. (Capability)",
+        "links": [
+          "Professional websites",
+          "Bookings",
+          "Practice operating systems"
+        ]
+      },
+      {
+        "title": "Digital Products",
+        "note": "We build owned digital products operated and developed inside BuyTuk. (Product)",
+        "links": [
+          "#products",
+          "#capabilities"
+        ]
+      },
+      {
+        "title": "AI & Intelligent Systems",
+        "note": "We build assistive and analytical systems with human review in the loop. (Capability)",
+        "links": [
+          "#ai",
+          "Assistive systems",
+          "Analysis & automation"
+        ]
+      }
+    ],
+    "customersLabel": "Client references",
+    "customersEmpty": "No client references are published. Names, logos and case studies require written approval and will not appear before it.",
+    "linksLabel": "What we build for this sector",
+    "linksNote": "Pointers to internal capabilities and products — not delivered projects and not clients."
+  },
+  "academy": {
+    "eyebrow": "BuyTuk Academy — an example from the ecosystem",
+    "title": "Student → Teacher → School → Administration → Evidence → AI Assistance → Reports",
+    "body": "The education platform inside the ecosystem. It connects everyone in a learning institution to one evidence chain so decisions rest on recorded data rather than impressions — an example of BuyTuk's ability to build large digital systems.",
+    "roleTitle": "AI's role, stated plainly",
+    "roleBody": "AI in BuyTuk Academy is an assistant to teachers and institutions. It summarises, flags and prepares. It does not grade a child, replace a teacher, or make a pedagogical decision. The human role stays at the centre.",
+    "flow": [
+      {
+        "title": "Student",
+        "note": "learning activity"
+      },
+      {
+        "title": "Teacher",
+        "note": "instruction and assessment"
+      },
+      {
+        "title": "School",
+        "note": "programme management"
+      },
+      {
+        "title": "Administration",
+        "note": "policy and oversight"
+      },
+      {
+        "title": "Evidence",
+        "note": "recorded, attributable data"
+      },
+      {
+        "title": "AI Assistance",
+        "note": "assistive, explainable"
+      },
+      {
+        "title": "Reports",
+        "note": "for humans to decide"
+      }
+    ],
+    "principlesTitle": "Operating principles",
+    "principles": [
+      "The evidence chain is the product: every claim traces to a record.",
+      "AI output is always attributed and reviewable.",
+      "Teachers and institutions keep authority over pedagogical decisions.",
+      "Student data is minimised, scoped and access-controlled."
+    ],
+    "cta": "Explore Academy",
+    "positioning": "BuyTuk → Ecosystem → Education → BuyTuk Academy",
+    "positioningNote": "BuyTuk Academy is a product/platform inside the BuyTuk ecosystem, and one of the strongest examples of what we can build. It is not the identity of the company, and not its only axis."
+  },
+  "lab": {
+    "eyebrow": "Innovation Lab",
+    "title": "Innovation Lab — a layer inside the ecosystem",
+    "body": "AI Lab and the Innovation Lab are technology capabilities within BuyTuk: where ideas and upcoming products are tested before they earn a place in the product register. Graduation is a decision, not an automatic outcome.",
+    "phases": [
+      {
+        "title": "Hypothesis",
+        "body": "A concrete problem statement and a measurable target."
+      },
+      {
+        "title": "Experiment",
+        "body": "A time-boxed build with an explicit kill criterion."
+      },
+      {
+        "title": "Evaluation",
+        "body": "Technical feasibility, cost and risk measured against the target."
+      },
+      {
+        "title": "Graduation",
+        "body": "Promotion into the product register, or an honest stop."
+      }
+    ],
+    "positioning": "Innovation Lab · AI Lab — a technology capability inside BuyTuk",
+    "positioningNote": "The lab is a layer inside the company, not the company. Ideas are tested here before they earn a place in the product register."
+  },
+  "infrastructure": {
+    "eyebrow": "Infrastructure & Security",
+    "title": "Built to be trusted",
+    "body": "Security and performance are implementation requirements on this platform, not a later phase. The measures below are active in this codebase.",
+    "measures": [
+      {
+        "title": "Security headers",
+        "body": "Content-Security-Policy, X-Frame-Options DENY, nosniff, strict referrer policy, HSTS and a locked-down Permissions-Policy on every response."
+      },
+      {
+        "title": "Server-side secrets",
+        "body": "CMS tokens and integration keys are read from the server environment only. Nothing sensitive is shipped to the browser."
+      },
+      {
+        "title": "Input validation",
+        "body": "Contact submissions are length- and type-checked on the client and re-validated on the server before anything is forwarded."
+      },
+      {
+        "title": "Rate limiting",
+        "body": "The contact endpoint enforces a per-IP token bucket and a honeypot field against automated abuse."
+      },
+      {
+        "title": "Dependency hygiene",
+        "body": "A deliberately small dependency surface and an npm audit step in the release checklist."
+      },
+      {
+        "title": "Static-first delivery",
+        "body": "Pages are pre-rendered and edge-cached, with immutable caching for hashed assets."
+      }
+    ]
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "title": "Notes from the build",
+    "body": "Engineering notes, product updates and announcements — published through the CMS.",
+    "empty": "No published insights yet. This section is wired to the CMS and waiting for the first entry."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Start a conversation",
+    "body": "Tell us what you are building. The form is validated on the client and re-validated on the server before anything is sent.",
+    "name": "Full name",
+    "email": "Work email",
+    "organisation": "Organisation",
+    "topic": "Topic",
+    "topics": {
+      "product": "Product enquiry",
+      "partnership": "Partnership",
+      "education": "BuyTuk Academy",
+      "ai": "AI / research",
+      "press": "Press",
+      "other": "Other"
+    },
+    "message": "Message",
+    "consentLabel": "I agree that BuyTuk may store this enquiry in order to respond to it.",
+    "submit": "Send enquiry",
+    "submitting": "Sending…",
+    "success": "Received. We will respond to the address you provided.",
+    "errorGeneric": "Something went wrong. Please try again shortly.",
+    "errorDeliveryUnavailable": "We cannot receive enquiries right now. Please try again later.",
+    "errorValidation": "Please correct the highlighted fields.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "message": "Please write at least 20 characters.",
+      "consent": "Consent is required to submit this form.",
+      "rate": "Too many submissions from this connection. Please try again later."
+    },
+    "channelsLabel": "Direct channels",
+    "channelsPending": "Official email addresses, phone numbers and registered address are pending client confirmation and are intentionally not published.",
+    "fields": {
+      "phone": "Phone (optional)",
+      "clientType": "Client type",
+      "industry": "Sector / industry",
+      "solution": "Solution needed",
+      "budget": "Budget (optional)",
+      "optional": "Optional",
+      "selectPlaceholder": "— Select —",
+      "noneOf": "Not specified"
+    },
+    "clientTypes": [
+      "Individual",
+      "Company",
+      "Government",
+      "Education institution",
+      "Non-profit",
+      "Other"
+    ],
+    "industries": [
+      "Education",
+      "Engineering",
+      "Construction",
+      "Infrastructure",
+      "Architecture",
+      "Healthcare",
+      "Sports",
+      "Business",
+      "Entrepreneurship",
+      "E-Commerce",
+      "Professional Services",
+      "Digital Products",
+      "AI & Intelligent Systems",
+      "Other"
+    ],
+    "solutions": [
+      "Professional website",
+      "E-commerce store",
+      "Mobile app (Android / iOS)",
+      "AI-powered application",
+      "Integrated web platform",
+      "SaaS platform",
+      "Custom business system",
+      "Education solutions",
+      "Integrations & APIs",
+      "Not sure yet"
+    ],
+    "budgets": [
+      "Under $5,000",
+      "$5,000 – $15,000",
+      "$15,000 – $50,000",
+      "Above $50,000",
+      "Not specified"
+    ],
+    "privacyNote": "We collect only what we need to answer your enquiry. Data is not used for anything else and is never shared with a third party."
+  },
+  "footer": {
+    "blurb": "A technology ecosystem: owned products and platforms, digital solutions for industries, and an applied-AI layer — on an evidence-first method.",
+    "columns": {
+      "company": "Company",
+      "platform": "Platform",
+      "legal": "Legal"
+    },
+    "links": {
+      "about": "What is BuyTuk",
+      "journey": "Company journey",
+      "insights": "Insights",
+      "contact": "Contact",
+      "products": "Products",
+      "technology": "Technology",
+      "academy": "BuyTuk Academy",
+      "aiLab": "AI Lab",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "accessibility": "Accessibility",
+      "security": "Security"
+    },
+    "placeholderNote": "Legal pages are wired but intentionally unpublished until the entity details are confirmed.",
+    "rights": "All rights reserved.",
+    "builtWith": "Built as a bilingual, accessible, server-rendered flagship."
+  },
+  "consent": {
+    "title": "Analytics consent",
+    "body": "We would like to measure page views, product views, CTA clicks and scroll depth to improve this site. Nothing is collected before you agree.",
+    "accept": "Allow analytics",
+    "decline": "Decline",
+    "policy": "Privacy-first: a random session id, no personal data, no cross-site tracking."
+  },
+  "capabilities": {
+    "eyebrow": "What does BuyTuk build?",
+    "title": "Products, platforms, solutions and capabilities",
+    "body": "Four classes of ownership and a fifth for requests, kept clearly apart: products we own, platforms we build, solutions shaped around a use case, the technical capabilities we deliver with, and services you can request now.",
+    "groups": [
+      {
+        "key": "products",
+        "title": "Products",
+        "body": "Owned products BuyTuk builds and operates, each with a declared state.",
+        "items": [
+          "BuyTuk Academy",
+          "BuyTuk AI"
+        ]
+      },
+      {
+        "key": "platforms",
+        "title": "Platforms",
+        "body": "Integrated multi-user platforms: roles, permissions, dashboards and reporting.",
+        "items": [
+          "Integrated web platforms",
+          "SaaS platforms",
+          "Multi-user business systems"
+        ]
+      },
+      {
+        "key": "solutions",
+        "title": "Solutions",
+        "body": "Digital solutions shaped around an organisation, a professional or a sector.",
+        "items": [
+          "Professional websites",
+          "E-commerce stores",
+          "Android & iOS apps",
+          "AI-powered apps",
+          "Business systems",
+          "Custom digital solutions"
+        ]
+      },
+      {
+        "key": "capabilities",
+        "title": "Capabilities",
+        "body": "The technical capabilities we deliver with: engineering, cloud, data, automation, security, AI.",
+        "items": [
+          "Web & API engineering",
+          "Cloud & scaling",
+          "Data & analytics",
+          "Automation",
+          "Information security",
+          "Applied AI"
+        ]
+      },
+      {
+        "key": "services",
+        "title": "Services",
+        "body": "What you can request from BuyTuk directly, as a service with a defined scope and delivery.",
+        "items": [
+          "Website design & build",
+          "Online store build",
+          "Mobile application build",
+          "Custom business system build",
+          "SaaS platform build",
+          "AI-powered application build",
+          "Performance & SEO optimisation",
+          "Operations, hosting & security"
+        ]
+      }
+    ],
+    "registerTitle": "What is actually published in the register",
+    "registerNote": "The figures below are derived from the product register published on this site. They are not marketing estimates."
+  },
+  "solutions": {
+    "eyebrow": "Digital solutions & capabilities",
+    "title": "What we can build for your team or organisation",
+    "body": "We build websites, platforms, stores, applications and systems, and connect them with APIs, automation and analytics — shaped by the real use case, not a template.",
+    "items": [
+      {
+        "title": "Web Platforms",
+        "body": "Integrated web platforms with roles, dashboards and APIs."
+      },
+      {
+        "title": "SaaS Platforms",
+        "body": "Multi-user subscription products built to scale."
+      },
+      {
+        "title": "Business & Professional Websites",
+        "body": "Corporate and professional sites with a clear identity and SEO structure."
+      },
+      {
+        "title": "E-Commerce Stores",
+        "body": "Stores with catalogue, payment, shipping, inventory and reporting."
+      },
+      {
+        "title": "Android & iOS Applications",
+        "body": "Mobile apps with one experience, synchronised with the web platform."
+      },
+      {
+        "title": "AI-Powered Applications",
+        "body": "Analysis, summarisation, automation and decision support, with human review."
+      },
+      {
+        "title": "Business Systems",
+        "body": "Internal operating systems: projects, tracking, archiving, reporting."
+      },
+      {
+        "title": "Custom Digital Solutions",
+        "body": "Bespoke solutions built from the ground up for the need."
+      }
+    ],
+    "note": "These are capabilities and solutions that can be designed — not delivered projects and not client references. No delivered project appears on this site before its documentation is supplied.",
+    "cta": "Discuss the right solution"
+  },
+  "offers": {
+    "explore": "Explore",
+    "request": "Request",
+    "talk": "Talk"
+  }
+}

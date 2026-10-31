@@ -1,0 +1,488 @@
+[
+  {
+    "slug": "buytuk-academy",
+    "claim": "platform",
+    "status": "coming-soon",
+    "category": "EducationTechnology",
+    "name": {
+      "ar": "BuyTuk Academy",
+      "en": "BuyTuk Academy"
+    },
+    "tagline": {
+      "ar": "منصة تعليمية داخل منظومة BuyTuk",
+      "en": "An education platform inside the BuyTuk ecosystem"
+    },
+    "description": {
+      "ar": "منصة تربط الطالب والمعلّم والمدرسة والإدارة بسلسلة دليل واحدة قابلة للنسبة، مع مساعدة ذكاء اصطناعي تبقى تابعة للمربّي. وهي مثال على قدرة BuyTuk على بناء منظومات رقمية كبيرة — وليست هوية الشركة.",
+      "en": "A platform connecting student, teacher, school and administration to one attributable evidence chain, with AI assistance that stays subordinate to the educator. It is an example of what BuyTuk can build — not the identity of the company."
+    },
+    "problem": {
+      "ar": "تحتفظ المؤسسات التعليمية بكميات كبيرة من بيانات النشاط لا تتحوّل إلى دليل قابل للاستخدام، فتصبح القرارات مبنية على انطباعات لا على سجلات.",
+      "en": "Learning institutions hold large volumes of activity data that never becomes usable evidence, so decisions rely on impressions rather than records."
+    },
+    "features": {
+      "ar": [
+        "سلسلة دليل واحدة من نشاط الصف إلى تقرير المؤسسة",
+        "صلاحيات محدّدة الدور للطالب والمعلّم والمدرسة والإدارة",
+        "مساعدة ذكاء اصطناعي تُلخّص وتُنبّه، وكل مخرج منسوب",
+        "تقارير موجّهة لقرار بشري، لا لأتمتة العمل التربوي"
+      ],
+      "en": [
+        "Single evidence chain from classroom activity to institutional report",
+        "Role-scoped access for student, teacher, school and administration",
+        "AI assistance that summarises and flags, with every output attributed",
+        "Reporting intended for human decisions, never automated pedagogy"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "تطبيق ويب مُصدَّر من الخادم وثنائي اللغة (RTL/LTR)",
+        "تحكم بالوصول حسب الدور",
+        "طبقة ذكاء اصطناعي مساندة بمراجعة بشرية"
+      ],
+      "en": [
+        "Server-rendered bilingual web application (RTL/LTR)",
+        "Role-based access control",
+        "Assistive AI layer with human review"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "استكشف BuyTuk Academy",
+        "en": "Explore BuyTuk Academy"
+      },
+      "href": "/academy"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "explore"
+  },
+  {
+    "slug": "buytuk-ai",
+    "claim": "capability",
+    "status": "research",
+    "category": "ArtificialIntelligence",
+    "name": {
+      "ar": "BuyTuk AI",
+      "en": "BuyTuk AI"
+    },
+    "tagline": {
+      "ar": "طبقة الذكاء الاصطناعي التطبيقي في المنظومة",
+      "en": "The applied-AI capability layer of the ecosystem"
+    },
+    "description": {
+      "ar": "طبقة تقنية داخل BuyTuk: مساعدة وتحليل وأتمتة، مع فصل صريح بين الإنتاج والنموذج الأولي والبحث والمفاهيم المستقبلية. تُستخدم داخل التعليم والهندسة والأعمال والتحليل والأتمتة والمنتجات القادمة.",
+      "en": "A technology layer inside BuyTuk: assistance, analysis and automation, with an explicit separation between production, prototype, research and future concepts. Used across education, engineering, business, analysis, automation and upcoming products."
+    },
+    "problem": {
+      "ar": "تُطلق قدرات الذكاء الاصطناعي كثيرًا دون الإفصاح عن مدى نضجها، فلا يستطيع المستخدم التمييز بين نظام يعمل وتجربة قيد الدراسة.",
+      "en": "AI capabilities are frequently shipped without disclosing maturity, so users cannot tell a working system from an experiment."
+    },
+    "features": {
+      "ar": [
+        "إفصاح عن مستوى النضج على كل واجهة ذكاء اصطناعي",
+        "مراجعة بشرية في الحلقة بشكل افتراضي",
+        "مخرجات قابلة للتفسير ومنسوبة إلى مصدرها"
+      ],
+      "en": [
+        "Maturity disclosure on every AI surface",
+        "Human review in the loop by default",
+        "Explainable, attributed output"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "تنسيق النماذج",
+        "منظومة تقييم",
+        "ضوابط تقليل البيانات"
+      ],
+      "en": [
+        "Model orchestration",
+        "Evaluation harness",
+        "Data-minimisation controls"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "استكشف قدرات الذكاء الاصطناعي",
+        "en": "Explore AI Capabilities"
+      },
+      "href": "/ai-lab"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "web-and-saas-platforms",
+    "claim": "capability",
+    "status": "coming-soon",
+    "category": "DigitalPlatforms",
+    "name": {
+      "ar": "منصات الويب و SaaS",
+      "en": "Web & SaaS Platforms"
+    },
+    "tagline": {
+      "ar": "قدرة بناء منصات متعددة المستخدمين",
+      "en": "Capability: multi-user platforms"
+    },
+    "description": {
+      "ar": "نبني منصات ويب متكاملة ومنصات SaaS: أدوار وصلاحيات، ولوحات تحكم، وواجهات برمجة، وطبقة محتوى، وتقارير. هذه قدرة تقنية معلنة، وليست مشروعًا منفّذًا منشورًا.",
+      "en": "We build integrated web platforms and SaaS products: roles and permissions, dashboards, APIs, a content layer and reporting. This is a stated capability, not a published delivered project."
+    },
+    "problem": {
+      "ar": "تحتاج المؤسسات إلى نظام واحد يحمل مستخدمين متعددين وأدوارًا مختلفة، بدل أدوات متفرقة لا تترابط بياناتها.",
+      "en": "Organisations need one system serving many users and roles instead of disconnected tools with fragmented data."
+    },
+    "features": {
+      "ar": [
+        "بنية أدوار وصلاحيات محدّدة على الخادم",
+        "لوحات تحكم وتقارير",
+        "واجهات برمجة بعقود موثّقة",
+        "طبقة محتوى قابلة للتحرير دون تعديل الشيفرة"
+      ],
+      "en": [
+        "Server-enforced roles and permissions",
+        "Dashboards and reporting",
+        "Contract-based APIs",
+        "Content layer editable without code changes"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "واجهات مُصدَّرة من الخادم",
+        "قواعد بيانات ونمذجة محتوى",
+        "تخزين مؤقت وتوصيل طرفي"
+      ],
+      "en": [
+        "Server-rendered interfaces",
+        "Databases and content modelling",
+        "Caching and edge delivery"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ناقش منصتك",
+        "en": "Discuss Your Platform"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "business-and-professional-websites",
+    "claim": "solution",
+    "status": "coming-soon",
+    "category": "WebSolutions",
+    "name": {
+      "ar": "مواقع الأعمال والمواقع المهنية",
+      "en": "Business & Professional Websites"
+    },
+    "tagline": {
+      "ar": "حل رقمي للطبيب والمهندس والمستشار والمؤسسة",
+      "en": "A digital solution for a clinic, an engineer, a consultant or a company"
+    },
+    "description": {
+      "ar": "نبني موقعًا احترافيًا لمؤسسة أو لمهني مستقل: للطبيب، وللمهندس، وللمعلّم، وللمستشار، ولمكتب الخدمات. حل مصمّم بحسب الاستخدام، ويشمل الحجز والتواصل والعرض المهني.",
+      "en": "We build a professional website for a company or an independent professional: a doctor, an engineer, a teacher, a consultant or a services firm. A solution shaped around the use case, including booking, contact and professional presentation."
+    },
+    "problem": {
+      "ar": "يفقد المهني المستقل والمؤسسة الصغيرة حضورًا رقميًا موثوقًا يستقبل العملاء ويوضّح الخدمات ويحفظ الطلبات.",
+      "en": "Independent professionals and small firms lack a credible digital presence that receives enquiries, explains services and captures requests."
+    },
+    "features": {
+      "ar": [
+        "هوية بصرية وصفحات خدمات متكاملة",
+        "نموذج طلب وحجز",
+        "تحسين محركات البحث والبيانات المنظّمة",
+        "ثنائية اللغة عربي/إنجليزي مع دعم RTL"
+      ],
+      "en": [
+        "Visual identity and complete service pages",
+        "Enquiry and booking form",
+        "SEO and structured data",
+        "Arabic/English bilingual with RTL support"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "واجهات مُصدَّرة مسبقًا",
+        "نماذج مُتحقَّق منها على الخادم",
+        "تحليلات تحترم الخصوصية"
+      ],
+      "en": [
+        "Pre-rendered interfaces",
+        "Server-validated forms",
+        "Privacy-respecting analytics"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ابنِ موقعك",
+        "en": "Build a Website"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "ecommerce-solutions",
+    "claim": "solution",
+    "status": "coming-soon",
+    "category": "ECommerce",
+    "name": {
+      "ar": "حلول التجارة الإلكترونية",
+      "en": "E-Commerce Solutions"
+    },
+    "tagline": {
+      "ar": "متاجر إلكترونية وتجربة شراء متكاملة",
+      "en": "Online stores and a complete buying journey"
+    },
+    "description": {
+      "ar": "نبني متجرًا إلكترونيًا متكاملًا: كتالوج، وصفحات منتج، وسلة، ودفع، وشحن، ولوحة إدارة للمخزون والطلبات، مع تقارير مبيعات. قدرة معلنة وقابلة للتصميم حسب طبيعة النشاط.",
+      "en": "We build a complete online store: catalogue, product pages, cart, payment, shipping, an inventory and orders dashboard, and sales reporting. A stated capability, shaped per business."
+    },
+    "problem": {
+      "ar": "يفتقر التاجر إلى قناة بيع مباشرة تتحكم في تجربة العلامة، فتبقى المبيعات مرهونة بمنصات وسيطة.",
+      "en": "Merchants lack a direct sales channel they control, leaving sales dependent on intermediaries."
+    },
+    "features": {
+      "ar": [
+        "كتالوج ومنتجات متعددة اللغات",
+        "سلة ودفع وشحن",
+        "إدارة مخزون وطلبات",
+        "تقارير مبيعات وربط بمحركات البحث"
+      ],
+      "en": [
+        "Bilingual catalogue and products",
+        "Cart, payment and shipping",
+        "Inventory and order management",
+        "Sales reporting and SEO"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "واجهة متجر مُحسّنة للسرعة",
+        "تكامل بوابات الدفع والشحن",
+        "تحليلات مسار التحويل"
+      ],
+      "en": [
+        "Performance-tuned storefront",
+        "Payment and shipping integrations",
+        "Conversion-path analytics"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ابنِ متجرك الإلكتروني",
+        "en": "Build an Online Store"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "mobile-applications",
+    "claim": "solution",
+    "status": "coming-soon",
+    "category": "MobileApplications",
+    "name": {
+      "ar": "تطبيقات Android و iOS",
+      "en": "Android & iOS Applications"
+    },
+    "tagline": {
+      "ar": "تطبيقات جوال بهوية واحدة وتجربة واحدة",
+      "en": "Mobile apps with one identity and one experience"
+    },
+    "description": {
+      "ar": "نبني تطبيقات الجوال لأندرويد و iOS: تجربة تصميم تبدأ من الجوال، وتزامن مع الويب، وإشعارات، وإصدارات مُدارَة عبر المتاجر.",
+      "en": "We build Android and iOS applications: a mobile-first design, synchronisation with the web platform, notifications and store-managed releases."
+    },
+    "problem": {
+      "ar": "يحتاج المستخدم النهائي إلى تطبيق يعمل بسلاسة على جوال متوسط المواصفات دون التضحية بالوظائف.",
+      "en": "End users need an app that runs smoothly on a mid-range phone without sacrificing function."
+    },
+    "features": {
+      "ar": [
+        "تصميم يبدأ من الجوال",
+        "دعم كامل للعربية RTL",
+        "عمل مع اتصال ضعيف",
+        "تحضير للنشر على المتاجر"
+      ],
+      "en": [
+        "Mobile-first design",
+        "Full Arabic RTL support",
+        "Weak-connection behaviour",
+        "Store-release preparation"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "تقنيات تطبيقات متعددة المنصات",
+        "واجهات برمجة مشتركة مع الويب",
+        "قياس أداء على أجهزة حقيقية"
+      ],
+      "en": [
+        "Cross-platform application stack",
+        "Shared APIs with the web platform",
+        "Performance measurement on real devices"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ابنِ تطبيق جوال",
+        "en": "Build a Mobile App"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "ai-powered-applications",
+    "claim": "solution",
+    "status": "coming-soon",
+    "category": "AppliedAI",
+    "name": {
+      "ar": "تطبيقات مدعومة بالذكاء الاصطناعي",
+      "en": "AI-Powered Applications"
+    },
+    "tagline": {
+      "ar": "ذكاء اصطناعي داخل منتج له استخدام واضح",
+      "en": "AI inside a product with a defined use case"
+    },
+    "description": {
+      "ar": "نبني تطبيقات وواجهات يستخدم فيها الذكاء الاصطناعي لتحليل أو تلخيص أو أتمتة أو مساندة قرار، مع مراجعة بشرية وإفصاح عن مستوى النضج.",
+      "en": "We build applications and interfaces where AI performs analysis, summarisation, automation or decision support — with human review and maturity disclosure."
+    },
+    "problem": {
+      "ar": "تُضاف ميزات الذكاء الاصطناعي غالبًا كواجهة استعراضية، بلا استخدام حقيقي ولا مقياس نجاح.",
+      "en": "AI features are often bolted on as a demo surface, with no real use case and no success measure."
+    },
+    "features": {
+      "ar": [
+        "حالة استخدام محدّدة ومقياس نجاح",
+        "مراجعة بشرية في الحلقة",
+        "مخرجات منسوبة إلى مصدرها",
+        "تحكم في البيانات وتقليلها"
+      ],
+      "en": [
+        "A defined use case and success measure",
+        "Human review in the loop",
+        "Outputs attributed to their source",
+        "Data control and minimisation"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "تنسيق النماذج ومزوّدو الخدمة",
+        "ضوابط تقليل البيانات",
+        "منظومة تقييم قابلة للتكرار"
+      ],
+      "en": [
+        "Model orchestration and providers",
+        "Data-minimisation controls",
+        "A repeatable evaluation harness"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ناقش تطبيقًا بالذكاء الاصطناعي",
+        "en": "Discuss an AI Application"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  },
+  {
+    "slug": "business-systems-and-custom-solutions",
+    "claim": "solution",
+    "status": "coming-soon",
+    "category": "BusinessSystems",
+    "name": {
+      "ar": "أنظمة الأعمال والحلول المخصّصة",
+      "en": "Business Systems & Custom Solutions"
+    },
+    "tagline": {
+      "ar": "أنظمة تشغيل داخلية وحلول مخصّصة",
+      "en": "Internal operating systems and custom solutions"
+    },
+    "description": {
+      "ar": "نبني أنظمة تشغيل للمؤسسة وحلولًا رقمية مخصّصة: إدارة مشاريع، ومتابعة تشغيل، وأرشفة، وتقارير، وتكامل مع الأدوات القائمة.",
+      "en": "We build internal operating systems and custom digital solutions: project management, operations tracking, archiving, reporting and integration with existing tools."
+    },
+    "problem": {
+      "ar": "تُدار العمليات بجداول ومراسلات متفرقة، فتُفقد المسؤولية وتتأخر القرارات.",
+      "en": "Operations are run on scattered spreadsheets and messages, so accountability is lost and decisions slow down."
+    },
+    "features": {
+      "ar": [
+        "سجلات وأدوار ومسؤوليات",
+        "سير عمل وموافقات",
+        "تقارير تشغيلية",
+        "تكامل مع الأنظمة القائمة"
+      ],
+      "en": [
+        "Records, roles and responsibilities",
+        "Workflows and approvals",
+        "Operational reporting",
+        "Integration with existing systems"
+      ]
+    },
+    "technology": {
+      "ar": [
+        "نمذجة بيانات مخصّصة",
+        "واجهات برمجة داخلية",
+        "صلاحيات دقيقة على مستوى السجل"
+      ],
+      "en": [
+        "Custom data modelling",
+        "Internal APIs",
+        "Fine-grained record-level permissions"
+      ]
+    },
+    "screenshots": [],
+    "caseStudy": null,
+    "cta": {
+      "label": {
+        "ar": "ناقش مشروعك",
+        "en": "Discuss Your Project"
+      },
+      "href": "#contact"
+    },
+    "verified": false,
+    "evidence": [],
+    "updatedAt": null,
+    "offerType": "request"
+  }
+]

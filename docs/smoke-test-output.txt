@@ -1,0 +1,122 @@
+
+BuyTuk smoke test — http://localhost:4011
+======================================================================================
+PASS  route /ar → 200                                                           got 200
+PASS  route /en → 200                                                           got 200
+PASS  route /ar/products → 200                                                  got 200
+PASS  route /en/products → 200                                                  got 200
+PASS  route /ar/academy → 200                                                   got 200
+PASS  route /en/academy → 200                                                   got 200
+PASS  route /ar/ai-lab → 200                                                    got 200
+PASS  route /en/ai-lab → 200                                                    got 200
+PASS  route /ar/legal → 200                                                     got 200
+PASS  route /en/legal → 200                                                     got 200
+PASS  unknown route → 404                                                       
+PASS  sitemap exposes product detail URLs                                       16 found
+PASS  product detail /ar/products/buytuk-academy → 200                          got 200
+PASS  product detail /en/products/buytuk-academy → 200                          got 200
+PASS  product detail /ar/products/buytuk-ai → 200                               got 200
+PASS  product detail /en/products/buytuk-ai → 200                               got 200
+PASS  /ar lang="ar" dir="rtl"                                                   
+PASS  /en lang="en" dir="ltr"                                                   
+PASS  /ar: exactly one <h1>                                                     found 1
+PASS  /ar: no heading-level jump                                                
+PASS  /en: exactly one <h1>                                                     found 1
+PASS  /en: no heading-level jump                                                
+PASS  /ar/products: exactly one <h1>                                            found 1
+PASS  /ar/products: no heading-level jump                                       
+PASS  /ar: exactly one canonical                                                https://buytuk.com/ar
+PASS  /ar: hreflang ar + en + x-default                                         
+PASS  /ar: og:image                                                             
+PASS  /ar: twitter:card                                                         
+PASS  /ar: JSON-LD                                                              
+PASS  /ar: meta description                                                     
+PASS  /ar: no duplicate <title>                                                 
+PASS  /en: exactly one canonical                                                https://buytuk.com/en
+PASS  /en: hreflang ar + en + x-default                                         
+PASS  /en: og:image                                                             
+PASS  /en: twitter:card                                                         
+PASS  /en: JSON-LD                                                              
+PASS  /en: meta description                                                     
+PASS  /en: no duplicate <title>                                                 
+PASS  sitemap.xml → 200                                                         got 200
+PASS  sitemap covers both locales                                               
+PASS  robots.txt → 200                                                          got 200
+PASS  robots points to sitemap                                                  
+PASS  og image → 200                                                            
+PASS  icon.svg → 200                                                            
+PASS  header CSP                                                                default-src 'self'; script-src 'self' 'unsafe-inline'; style
+PASS  header HSTS                                                               max-age=63072000; includeSubDomains; preload
+PASS  header X-Frame-Options                                                    DENY
+PASS  header X-Content-Type-Options                                             nosniff
+PASS  header Referrer-Policy                                                    strict-origin-when-cross-origin
+PASS  header Permissions-Policy                                                 camera=(), microphone=(), geolocation=(), payment=()
+PASS  API: GET → 405                                                            
+PASS  API: empty body → 400                                                     
+PASS  API: invalid email → 400                                                  
+PASS  API: short message → 400                                                  
+PASS  API: missing consent → 400                                                
+PASS  API: invalid phone → 400                                                  
+PASS  API: honeypot swallowed → 200                                             
+PASS  API: valid submission → 200                                               200 {"ok":true}
+PASS  API: oversized payload rejected                                           
+PASS  API: rate limiter engages (429 seen)                                      200,200,200,200,200,429,429
+PASS  no "RESEND_API_KEY" leaked in /ar HTML                                    
+PASS  no "CMS_READ_TOKEN" leaked in /ar HTML                                    
+PASS  no "CONTACT_INBOX" leaked in /ar HTML                                     
+PASS  no "re_" leaked in /ar HTML                                               
+PASS  no "SMTP_PASS" leaked in /ar HTML                                         
+PASS  LINK CRAWLER: no broken internal link (24 pages crawled)                  
+PASS  HEADINGS: exactly one <h1> on 18 pages (incl. /en/products + all detail)  
+PASS  HEADINGS: no level jump on 18 pages                                       
+PASS  product detail coverage = 16                                              16 detail URLs in sitemap
+PASS  PWA: /manifest.webmanifest → 200                                          got 200
+PASS  PWA: manifest served as json                                              application/manifest+json
+PASS  PWA: manifest has "name"                                                  "BuyTuk — شركة تقنية ومنظومة منتجات رقمي
+PASS  PWA: manifest has "short_name"                                            "BuyTuk"
+PASS  PWA: manifest has "description"                                           "BuyTuk تبني منظومة منتجات ومنصات وحلول 
+PASS  PWA: manifest has "start_url"                                             "/ar"
+PASS  PWA: manifest has "scope"                                                 "/"
+PASS  PWA: manifest has "display"                                               "standalone"
+PASS  PWA: manifest has "lang"                                                  "ar"
+PASS  PWA: manifest has "dir"                                                   "rtl"
+PASS  PWA: manifest has "theme_color"                                           "#04070f"
+PASS  PWA: manifest has "background_color"                                      "#04070f"
+PASS  PWA: manifest has "icons"                                                 [{"src":"/icons/icon-192.png","sizes":"1
+PASS  PWA: icons 192 + 512 + maskable                                           192x192:any,512x512:any,512x512:maskable
+PASS  PWA: display standalone                                                   
+PASS  PWA: dir rtl                                                              
+PASS  PWA: /icons/icon-192.png → 200 image/png                                  200 image/png
+PASS  PWA: /icons/icon-512.png → 200 image/png                                  200 image/png
+PASS  PWA: /icons/maskable-512.png → 200 image/png                              200 image/png
+PASS  PWA: /icons/apple-touch-icon-180.png → 200 image/png                      200 image/png
+PASS  PWA: /icon.svg → 200 image/svg+xml                                        200 image/svg+xml
+PASS  PWA: /sw.js → 200                                                         got 200
+PASS  PWA: /sw.js is javascript                                                 application/javascript; charset=UTF-8
+PASS  PWA: sw.js Cache-Control no-cache                                         no-cache, no-store, must-revalidate
+PASS  PWA: Service-Worker-Allowed: /                                            /
+PASS  PWA: sw.js never caches /api/                                             
+PASS  PWA: sw.js ignores non-GET                                                
+PASS  PWA: sw.js is versioned                                                   
+PASS  PWA: sw.js deletes old caches on activate                                 
+PASS  PWA: offline page /ar/offline → 200                                       got 200
+PASS  PWA: offline page /en/offline → 200                                       got 200
+PASS  PWA: <link rel="manifest"> in HTML                                        
+PASS  PWA: theme-color meta in HTML                                             
+PASS  PWA: apple-mobile-web-app-capable meta                                    
+PASS  PWA: apple-mobile-web-app-title meta                                      
+PASS  SEO kept: canonical still present                                         
+PASS  SEO kept: hreflang still present                                          
+PASS  CTA ar: products listing has a #contact CTA                               /ar#contact,/ar#contact,/ar#contact
+PASS  CTA ar: every #contact CTA is locale-prefixed (/ar#contact)               /ar#contact,/ar#contact,/ar#contact,/ar#contact,/ar#contact,/ar#contact,/ar#contact,/ar#contact,/ar#contact
+PASS  CTA ar: no dead same-page anchor on /ar/products/buytuk-academy           
+PASS  CTA ar: /ar actually contains the #contact target                         
+PASS  CTA ar: target page reachable (200)                                       
+PASS  CTA en: products listing has a #contact CTA                               /en#contact,/en#contact,/en#contact
+PASS  CTA en: every #contact CTA is locale-prefixed (/en#contact)               /en#contact,/en#contact,/en#contact,/en#contact,/en#contact,/en#contact,/en#contact,/en#contact,/en#contact
+PASS  CTA en: no dead same-page anchor on /en/products/buytuk-academy           
+PASS  CTA en: /en actually contains the #contact target                         
+PASS  CTA en: target page reachable (200)                                       
+======================================================================================
+116 PASSED / 0 FAILED  →  OVERALL: PASS
+

@@ -1,0 +1,13 @@
+{
+  "contact": {
+    "enabled": true,
+    "recipientEnvKey": "CONTACT_INBOX",
+    "rateLimit": { "windowMs": 60000, "max": 5 },
+    "minMessageLength": 20,
+    "maxMessageLength": 4000
+  },
+  "legal": {
+    "published": false,
+    "note": "Privacy, Terms and Accessibility pages are wired but intentionally unpublished until the entity details are confirmed."
+  }
+}

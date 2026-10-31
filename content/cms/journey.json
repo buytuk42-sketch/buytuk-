@@ -1,0 +1,11 @@
+{
+  "$comment": "Proposed structure only. The UI labels every row as awaiting client confirmation and never presents these dates as history.",
+  "confirmed": false,
+  "items": [
+    { "phase": "Foundation", "label": "Company founded", "detail": "Legal entity, founding team and initial scope.", "date": null, "verified": false },
+    { "phase": "Build", "label": "First products enter development", "detail": "Product register opened; first build cycles.", "date": null, "verified": false },
+    { "phase": "Education", "label": "BuyTuk Academy direction defined", "detail": "Evidence-chain model and AI-assistance principle.", "date": null, "verified": false },
+    { "phase": "Platform", "label": "Unified platform and design system", "detail": "One component system, one content layer, one motion language.", "date": null, "verified": false },
+    { "phase": "Global", "label": "Bilingual global presence", "detail": "Arabic RTL and English LTR flagship experience.", "date": null, "verified": false }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$comment": "Hero copy is CMS-editable (brief §4). Replace values here or in the headless CMS — no code change required.",
+  "statement": {
+    "en": "We Build What Comes Next",
+    "ar": "نبني ما يأتي بعد ذلك"
+  },
+  "subtitle": {
+    "en": "BuyTuk builds a portfolio of products, platforms and digital experiences — from artificial intelligence and cloud infrastructure to business and education systems, engineered for scale.",
+    "ar": "تبني BuyTuk منظومة من المنتجات والمنصات والتجارب الرقمية — من الذكاء الاصطناعي والبنية السحابية إلى أنظمة الأعمال والتعليم، بهندسة قابلة للتوسّع."
+  },
+  "eyebrow": {
+    "en": "Global technology flagship",
+    "ar": "واجهة تقنية عالمية"
+  },
+  "primaryCta": { "label": { "en": "Explore the ecosystem", "ar": "استكشف المنظومة" }, "href": "#ecosystem" },
+  "secondaryCta": { "label": { "en": "Talk to BuyTuk", "ar": "تواصل مع BuyTuk" }, "href": "#contact" },
+  "verified": true
+}
