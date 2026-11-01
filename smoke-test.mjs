@@ -34,7 +34,8 @@ const post = (body, ip) =>
   req('/api/contact', { ip: ip || `10.7.0.${++ipSeq}`, method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
 
 // ---- 1. routes --------------------------------------------------------------
-const ROUTES = ['/ar', '/en', '/ar/products', '/en/products', '/ar/academy', '/en/academy',
+const ROUTES = ['/ar', '/en', '/ar/products', '/en/products', '/ar/services', '/en/services',
+                '/ar/academy', '/en/academy',
                 '/ar/ai-lab', '/en/ai-lab', '/ar/legal', '/en/legal'];
 for (const p of ROUTES) {
   const r = await req(p);
@@ -56,10 +57,26 @@ for (const p of detail.slice(0, 4)) {
 const ar = await req('/ar'), en = await req('/en');
 check('/ar lang="ar" dir="rtl"', /<html[^>]+lang="ar"/i.test(ar.text) && /<html[^>]+dir="rtl"/i.test(ar.text));
 check('/en lang="en" dir="ltr"', /<html[^>]+lang="en"/i.test(en.text) && /<html[^>]+dir="ltr"/i.test(en.text));
+const showcaseAr = await req('/ar/services'), showcaseEn = await req('/en/services');
+check('Arabic specialist showcase identifies all six concepts',
+  ['مكتب محاماة', 'عيادة طبية', 'سوبر ماركت', 'متجر إلكتروني', 'مطعم ومقهى', 'مكتب عقاري']
+    .every((label) => showcaseAr.text.includes(label)));
+check('English specialist showcase identifies all six concepts',
+  ['Law firm', 'Medical clinic', 'Supermarket', 'Online store', 'Restaurant &amp; café', 'Real estate']
+    .every((label) => showcaseEn.text.includes(label)));
+check('Specialist showcase labels concepts and disclaims delivered work',
+  showcaseAr.text.includes('تصوّر تصميمي') && showcaseAr.text.includes('ليست أعمالًا سابقة') &&
+  showcaseEn.text.includes('Design concept') && showcaseEn.text.includes('not past work'));
 
 // ---- 3. one H1, no heading jump --------------------------------------------
 const heads = (h) => [...h.matchAll(/<h([1-6])[\s>]/gi)].map((m) => +m[1]);
-for (const [name, html] of [['/ar', ar.text], ['/en', en.text], ['/ar/products', (await req('/ar/products')).text]]) {
+for (const [name, html] of [
+  ['/ar', ar.text],
+  ['/en', en.text],
+  ['/ar/products', (await req('/ar/products')).text],
+  ['/ar/services', showcaseAr.text],
+  ['/en/services', showcaseEn.text]
+]) {
   const hs = heads(html), h1 = hs.filter((x) => x === 1).length;
   check(`${name}: exactly one <h1>`, h1 === 1, `found ${h1}`);
   let jump = null;
@@ -83,6 +100,8 @@ for (const [name, html] of [['/ar', ar.text], ['/en', en.text]]) {
 // ---- 5. sitemap / robots ---------------------------------------------------
 check('sitemap.xml → 200', sm.status === 200, `got ${sm.status}`);
 check('sitemap covers both locales', sm.text.includes('/ar') && sm.text.includes('/en'));
+check('sitemap lists specialist showcase in both locales',
+  sm.text.includes('/ar/services') && sm.text.includes('/en/services'));
 const rb = await req('/robots.txt');
 check('robots.txt → 200', rb.status === 200, `got ${rb.status}`);
 check('robots points to sitemap', /sitemap/i.test(rb.text));
@@ -158,7 +177,7 @@ for (const s of ['RESEND_API_KEY', 'CMS_READ_TOKEN', 'CONTACT_INBOX', 're_', 'SM
 const ASSET = /\.(png|jpe?g|svg|webp|avif|ico|css|js|json|xml|txt|webmanifest|woff2?|map)$/i;
 
 // ---- 10. crawl every internal link on the entry pages ----------------------
-const ENTRY = ['/ar', '/en', '/ar/products', '/en/products'];
+const ENTRY = ['/ar', '/en', '/ar/products', '/en/products', '/ar/services', '/en/services'];
 const seen = new Set(); const queue = [...ENTRY]; const broken = [];
 while (queue.length && seen.size < 80) {
   const path = queue.shift();
@@ -183,7 +202,7 @@ check(`LINK CRAWLER: no broken internal link (${seen.size} pages crawled)`, brok
 const sitemapXml = (await req('/sitemap.xml')).text;
 const allDetail = [...new Set([...sitemapXml.matchAll(/https?:\/\/[^<]*?\/(ar|en)\/products\/([a-z0-9-]+)/g)]
   .map((m) => `/${m[1]}/products/${m[2]}`))];
-const headingTargets = ['/en/products', '/ar/products', ...allDetail];
+const headingTargets = ['/en/products', '/ar/products', '/ar/services', '/en/services', ...allDetail];
 const worst = { one: [], jump: [] };
 for (const path of headingTargets) {
   const html = (await req(path)).text;

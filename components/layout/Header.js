@@ -18,16 +18,16 @@ export default function Header({ locale, path = '' }) {
         { href: '/#ecosystem', label: 'المنظومة' },
         { href: '/#technology', label: 'التقنية' },
         { href: '/products', label: 'المنتجات' },
+        { href: '/services', label: 'الحلول' },
         { href: '/ai-lab', label: 'مختبر الذكاء الاصطناعي' },
-        { href: '/academy', label: 'الأكاديمية' },
         { href: '/#contact', label: 'تواصل' }
       ]
     : [
         { href: '/#ecosystem', label: 'Ecosystem' },
         { href: '/#technology', label: 'Technology' },
         { href: '/products', label: 'Products' },
+        { href: '/services', label: 'Solutions' },
         { href: '/ai-lab', label: 'AI Lab' },
-        { href: '/academy', label: 'Academy' },
         { href: '/#contact', label: 'Contact' }
       ];
 

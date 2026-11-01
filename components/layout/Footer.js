@@ -44,6 +44,7 @@ export default async function Footer({ locale }) {
       title: isAr ? 'المنصة' : 'Platform',
       links: [
         { href: '/products', label: isAr ? 'المنتجات' : 'Products' },
+        { href: '/services', label: isAr ? 'معرض الحلول' : 'Solution showcase' },
         { href: '/#technology', label: isAr ? 'التقنية' : 'Technology' },
         { href: '/academy', label: 'BuyTuk Academy' },
         { href: '/ai-lab', label: isAr ? 'مختبر الذكاء الاصطناعي' : 'AI Lab' }

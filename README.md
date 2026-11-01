@@ -24,6 +24,7 @@ Routes (every route exists in both locales):
 | `/ar`, `/en` | Homepage — the 19 required blocks |
 | `/ar/products`, `/en/products` | Product register |
 | `/ar/products/[slug]` | Product detail (status, problem, features, tech, screenshots, case study, CTA, evidence) |
+| `/ar/services`, `/en/services` | Six sector-specific solution concepts (law firm, clinic, supermarket, online store, cafe, real estate) |
 | `/ar/academy`, `/en/academy` | BuyTuk Academy — evidence chain + AI's role |
 | `/ar/ai-lab`, `/en/ai-lab` | AI Lab — production / prototype / research / future separation |
 | `/sitemap.xml`, `/robots.txt` | SEO |
@@ -108,6 +109,11 @@ fallback even if JavaScript never runs.
 
 Editable without code: `products`, `projects`, `insights`, `journey`, `metrics`, `site`,
 **and the hero copy** (`hero.json`, satisfying "hero text editable from CMS").
+
+The specialist solution showcase lives in `components/sections/ServiceShowcase.js`
+with Arabic and English copy in the locale dictionaries. Its six sector previews are
+illustrative design concepts, clearly labeled as concepts—not delivered work or client
+references. Each has a distinct visual treatment and sector-specific sample interface.
 
 If the CMS is unreachable, the module logs and degrades to the committed copy — the page
 never breaks because of a CMS outage.

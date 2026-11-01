@@ -103,6 +103,9 @@ export function SolutionsSection({ locale, t }) {
           <LocalizedLink locale={locale} href="#contact" className="btn btn--primary">
             {t('solutions.cta')}
           </LocalizedLink>
+          <LocalizedLink locale={locale} href="/services" className="btn btn--ghost" style={{ marginInlineStart: 'var(--sp-3)' }}>
+            {t('nav.services')}
+          </LocalizedLink>
         </Reveal>
       </div>
     </section>

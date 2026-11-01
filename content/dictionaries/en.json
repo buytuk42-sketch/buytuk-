@@ -19,6 +19,7 @@
     "ai": "AI",
     "aiLab": "AI Lab",
     "products": "Products",
+    "services": "Solutions",
     "projects": "Projects",
     "journey": "Journey",
     "metrics": "Metrics",
@@ -769,6 +770,82 @@
     ],
     "note": "These are capabilities and solutions that can be designed — not delivered projects and not client references. No delivered project appears on this site before its documentation is supplied.",
     "cta": "Discuss the right solution"
+  },
+  "showcase": {
+    "eyebrow": "Specialist experience showcase",
+    "title": "Different fields deserve different experiences",
+    "body": "From a professional practice to a store or service platform, we explore the right experience for your audience and build an interface and features around your business—instead of repeating one template.",
+    "note": "These are illustrative design concepts for different sectors, not past work, delivered projects or client references. They show how design and functionality can change to fit each field.",
+    "concept": "Design concept",
+    "discuss": "Discuss this kind of solution",
+    "bottomEyebrow": "From concept to product",
+    "bottomTitle": "Have a different field or idea?",
+    "bottomBody": "Tell us about your audience and how you work. We start by understanding the need, then shape an experience around your identity and requirements.",
+    "bottomCta": "Start a project conversation",
+    "metaDescription": "Explore illustrative design concepts for a law firm, clinic, supermarket, online store, cafe and real estate. Each experience is tailored to its sector; these concepts are not past work.",
+    "examples": [
+      {
+        "type": "legal",
+        "mark": "L",
+        "title": "Law firm",
+        "category": "Legal services",
+        "summary": "A considered professional presence that explains practice areas and makes consultation requests easy.",
+        "heading": "Clarity for your next step",
+        "body": "Legal counsel for people and organisations.",
+        "action": "Request a consultation",
+        "services": ["Business", "Contracts", "Advisory"]
+      },
+      {
+        "type": "clinic",
+        "title": "Medical clinic",
+        "category": "Health & care",
+        "summary": "A calm, clear route through specialties, care teams and appointments, designed for mobile booking.",
+        "heading": "Care that starts with listening",
+        "body": "Explore specialties and choose a suitable time.",
+        "action": "View appointments",
+        "services": ["Specialties", "Care team", "Appointments"]
+      },
+      {
+        "type": "market",
+        "title": "Supermarket",
+        "category": "Everyday shopping",
+        "summary": "A practical shopping experience with search, categories, a basket and products close at hand.",
+        "heading": "Everyday essentials, made easy",
+        "body": "Browse departments and add what you need.",
+        "action": "Start shopping",
+        "services": ["Produce", "Bakery", "Household"]
+      },
+      {
+        "type": "store",
+        "title": "Online store",
+        "category": "E-commerce",
+        "summary": "An editorial brand experience with room for product storytelling, collections and useful details.",
+        "heading": "Find your point of view",
+        "body": "Explore a considered collection and its details.",
+        "action": "Explore the collection",
+        "services": ["New arrivals", "Collections", "Our story"]
+      },
+      {
+        "type": "cafe",
+        "title": "Restaurant & café",
+        "category": "Food & hospitality",
+        "summary": "An inviting sense of place with a readable menu and a direct path to ordering or booking.",
+        "heading": "Take your time. Stay for the flavour.",
+        "body": "Thoughtful coffee and a menu made with care.",
+        "action": "Explore the menu",
+        "services": ["Menu", "Our story", "Find us"]
+      },
+      {
+        "type": "property",
+        "title": "Real estate",
+        "category": "Property & homes",
+        "summary": "A visual property search with clear filters and the details people need to compare and enquire.",
+        "heading": "Find a place to call yours",
+        "body": "Explore homes that fit the way you live.",
+        "action": "Browse properties",
+        "services": ["For sale", "For rent", "Neighbourhoods"]
+      }
+    ]
   },
   "offers": {
     "explore": "Explore",
