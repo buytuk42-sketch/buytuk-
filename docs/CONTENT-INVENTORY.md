@@ -70,7 +70,7 @@ No project was invented. `attribution`, `client` and `evidence` remain empty for
 
 ## 4. Company journey — `content/cms/journey.json`
 
-Five phases: Foundation, Build, Education, Platform, Global. All five carry `date: null, verified: false` and are labelled **Unverified — proposed structure, awaiting client confirmation**. The section header states this, and the disclaimer is rendered above the timeline. **No date is presented as history.**
+The founding milestone is confirmed as 2020. Further rows describe software development, websites and platforms, applications, and ongoing product work as work areas—not dated launches or delivered client projects. They intentionally have no dates. The section also includes a concise leadership profile for Director Eng. Ahmed Antar Ahmed; no unprovided qualifications or achievements are claimed.
 
 ---
 

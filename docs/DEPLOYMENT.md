@@ -30,7 +30,7 @@ Copy `.env.example` → `.env.local` (local) or paste into the host's environmen
 | Variable | Required | Purpose |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | **Yes** | Public origin. Drives canonical URLs, hreflang, sitemap, OG. Set to the real HTTPS origin, no trailing slash. |
-| `CONTACT_INBOX` | **Yes** | Address that receives contact submissions. |
+| `CONTACT_INBOX` | No | Address that receives contact submissions; defaults to `Buytuk1@gmail.com`. |
 | `CONTACT_PROVIDER` | **Yes for delivery** | Set to `resend` to enable real sending. If delivery is not configured, valid enquiries receive HTTP 503 and are not falsely reported as received. |
 | `RESEND_API_KEY` | **Yes if `CONTACT_PROVIDER=resend`** | Transport key. Server-side only, never exposed to the browser. |
 | `CONTACT_FROM` | No | Verified sender, e.g. `BuyTuk <no-reply@buytuk.com>`. Ignored unless `CONTACT_PROVIDER=resend`. |
@@ -98,6 +98,8 @@ State 2 uses the identical code path as state 3 for parsing; only the fetch targ
 5. **Pass condition:** the message arrives in `CONTACT_INBOX` within a minute, and the visitor sees the success state (no error, no blank screen).
 6. Also submit an invalid form (empty/bad email) and confirm inline Arabic/English errors appear and nothing is sent.
 7. If provider configuration is missing or delivery fails, the API returns an error and the form does not show success. Configure delivery before launch; submissions are not persisted as a fallback.
+
+The contact page also displays direct email and WhatsApp links. If automatic delivery is unavailable after a valid form submission, the form offers email and WhatsApp links prefilled with the enquiry. The visitor must review the draft and press Send in their email or WhatsApp app; opening a `mailto:` or `wa.me` link does not send anything by itself.
 
 The smoke test skips valid-message delivery probes by default. Set `EXPECT_CONTACT_DELIVERY_UNAVAILABLE=1` when testing a deployment with no delivery provider, or set `ALLOW_CONTACT_EMAIL_TEST=1` only when you intentionally want it to send a real test email to the configured inbox.
 

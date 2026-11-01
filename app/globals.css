@@ -636,6 +636,16 @@ html[dir='rtl'] .flow__arrow { transform: scaleX(-1); }
   background: rgba(255, 255, 255, 0.03);
   color: var(--text-hi);
 }
+.field select { color-scheme: dark; }
+.field select option {
+  color: var(--arc-1);
+  background-color: var(--ink-100);
+}
+.field select option:checked {
+  color: var(--ok);
+  background-color: var(--ink-200);
+}
+.field select option[value=''] { color: var(--text-lo); }
 .field input:focus, .field textarea:focus, .field select:focus { border-color: var(--arc-1); outline: none; }
 .field__error { font-size: var(--fs-xs); color: #ff8b8b; }
 .hint { font-size: var(--fs-xs); color: var(--text-lo); }

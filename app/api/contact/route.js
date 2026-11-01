@@ -184,7 +184,7 @@ export async function POST(request) {
   // Delivery ---------------------------------------------------------------
   // Never report success unless a delivery provider accepted the enquiry.
   const provider = process.env.CONTACT_PROVIDER;
-  const recipient = process.env.CONTACT_INBOX;
+  const recipient = process.env.CONTACT_INBOX || 'Buytuk1@gmail.com';
 
   try {
     if (provider === 'resend' && process.env.RESEND_API_KEY && recipient) {

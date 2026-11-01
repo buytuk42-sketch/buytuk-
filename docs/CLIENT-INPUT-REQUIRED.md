@@ -83,8 +83,9 @@ Fill the **Your value** column and send it back. "Status" is pre-set by the buil
 
 | Category | Field | Required | Example | Current value | Status |
 |---|---|---|---|---|---|
-| Journey | Real date for each of the 5 phases | **Yes** | `2024-03` | `null` | Missing |
-| Journey | Approve the phase labels, or replace them | **Yes** | — | proposed | Awaiting approval |
+| Journey | Company founding year | **Yes** | `2020` | `2020` | Provided |
+| Journey | Exact dates for later launches or milestones | No | `2024-03` | Not published; later entries are undated work areas | Not required unless confirmed |
+| Journey | Additional manager biography facts | No | Qualifications / career history | Only the supplied name and role are published | Not provided |
 | Metric | Value + measurement method + date + source URL | No | `…%, measured 2026-09, source: …` | `null` → renders `—` | Missing |
 | Metric | Active users / products live / projects delivered / markets / institutions / uptime | No | — | `null` | Missing |
 | Sector | Confirm the 13 sectors, and which are focus vs exploratory | **Yes** | — | 13 listed | Awaiting approval |

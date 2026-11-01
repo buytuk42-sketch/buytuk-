@@ -49,6 +49,26 @@ export default function ContactForm({ locale, copy }) {
     setErrors((prev) => ({ ...prev, [key]: undefined }));
   };
 
+  function buildRequestMessage() {
+    const fields = [
+      [copy.name, values.name],
+      [copy.email, values.email],
+      [pick(f.phone), values.phone],
+      [pick(f.organisation), values.organisation],
+      [pick(f.clientType), values.clientType],
+      [pick(f.industry), values.industry],
+      [pick(f.solution), values.solution],
+      [pick(f.budget), values.budget],
+      [copy.topic, topics.find((topic) => topic.value === values.topic)?.label],
+      [copy.message, values.message]
+    ];
+
+    return [
+      isAr ? 'طلب جديد عبر موقع BuyTuk' : 'New enquiry via BuyTuk website',
+      ...fields.filter(([, value]) => value).map(([label, value]) => `${label}: ${value}`)
+    ].join('\n');
+  }
+
   function validate() {
     const next = {};
     if (!values.name.trim()) next.name = copy.errors.name;
@@ -80,8 +100,15 @@ export default function ContactForm({ locale, copy }) {
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
         if (res.status === 429) setErrors({ form: copy.errors.rate });
-        else if (data.error === 'delivery_unavailable') setErrors({ form: copy.errorDeliveryUnavailable });
-        else if (res.status === 413) setErrors({ form: copy.errorGeneric });
+        else if (res.status >= 500) {
+          setErrors({
+            form: data.error === 'delivery_unavailable'
+              ? copy.errorDeliveryUnavailable
+              : copy.errorGeneric
+          });
+          setStatus('fallback');
+          return;
+        } else if (res.status === 413) setErrors({ form: copy.errorGeneric });
         else if (data.errors) setErrors(data.errors);
         else setErrors({ form: copy.errorGeneric });
         setStatus('error');
@@ -92,7 +119,7 @@ export default function ContactForm({ locale, copy }) {
       setValues({ ...EMPTY, topic: topics[0]?.value || 'other' });
     } catch {
       setErrors({ form: copy.errorGeneric });
-      setStatus('error');
+      setStatus('fallback');
     }
   }
 
@@ -210,6 +237,28 @@ export default function ContactForm({ locale, copy }) {
       </label>
       {errors.consent && <span className="field__error">{errors.consent}</span>}
       {errors.form && <span className="field__error" role="alert">{errors.form}</span>}
+      {status === 'fallback' && (
+        <div className="stack stack--sm" role="group" aria-label={copy.fallbackPrompt}>
+          <p style={{ margin: 0 }}>{copy.fallbackPrompt}</p>
+          <div className="row">
+            <a
+              className="btn btn--primary"
+              href={`https://wa.me/${formCopy.contactChannels.whatsapp}?text=${encodeURIComponent(buildRequestMessage())}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {copy.whatsappButton}
+            </a>
+            <a
+              className="btn btn--ghost"
+              href={`mailto:${formCopy.contactChannels.email}?subject=${encodeURIComponent(isAr ? 'طلب عبر موقع BuyTuk' : 'BuyTuk website enquiry')}&body=${encodeURIComponent(buildRequestMessage())}`}
+            >
+              {copy.emailButton}
+            </a>
+          </div>
+          <p className="hint" style={{ margin: 0 }}>{copy.externalSendNote}</p>
+        </div>
+      )}
 
       <p className="hint" style={{ margin: 0 }}>{pick(formCopy.privacyNote)}</p>
 
