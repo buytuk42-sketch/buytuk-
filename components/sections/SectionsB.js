@@ -1,6 +1,7 @@
 import Reveal from '@/components/ui/Reveal';
 import ContactForm from '@/components/sections/ContactForm';
 import { LocalizedLink } from '@/components/ui/LocalizedLink';
+import formCopy from '@/content/cms/contact-form.json';
 
 /* ---------------------------------------------------------------------------
    Homepage sections 10-19 (brief §3): Projects, Journey, Metrics, Industries,
@@ -339,8 +340,15 @@ export function ContactSection({ locale, t }) {
     success: t('contact.success'),
     body: t('contact.body'),
     errorGeneric: t('contact.errorGeneric'),
+    errorDeliveryUnavailable: t('contact.errorDeliveryUnavailable'),
     errorValidation: t('contact.errorValidation'),
-    errors: t('contact.errors')
+    errors: t('contact.errors'),
+    fallbackPrompt: t('contact.fallbackPrompt'),
+    whatsappButton: t('contact.whatsappButton'),
+    emailButton: t('contact.emailButton'),
+    directWhatsappButton: t('contact.directWhatsappButton'),
+    directEmailButton: t('contact.directEmailButton'),
+    externalSendNote: t('contact.externalSendNote')
   };
 
   return (
@@ -359,6 +367,19 @@ export function ContactSection({ locale, t }) {
             <div className="card">
               <h3 className="h3" style={{ marginBottom: 'var(--sp-3)' }}>{t('contact.channelsLabel')}</h3>
               <p className="hint" style={{ margin: 0 }}>{t('contact.channelsPending')}</p>
+              <div className="stack stack--sm" style={{ marginTop: 'var(--sp-4)' }}>
+                <a className="btn btn--ghost" href={`mailto:${formCopy.contactChannels.email}`}>
+                  {t('contact.directEmailButton')} · {formCopy.contactChannels.email}
+                </a>
+                <a
+                  className="btn btn--ghost"
+                  href={`https://wa.me/${formCopy.contactChannels.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('contact.directWhatsappButton')} · {formCopy.contactChannels.phoneDisplay}
+                </a>
+              </div>
             </div>
             <div className="card">
               <h3 className="h3" style={{ marginBottom: 'var(--sp-3)' }}>{t('infrastructure.title')}</h3>

@@ -25,8 +25,29 @@
     "en": ["Professional website", "E-commerce store", "Mobile app (Android / iOS)", "AI-powered application", "Integrated web platform", "SaaS platform", "Custom business system", "Education solutions", "Integrations & APIs", "Not sure yet"]
   },
   "budgets": {
-    "ar": ["أقل من 5,000 دولار", "5,000 – 15,000 دولار", "15,000 – 50,000 دولار", "أكثر من 50,000 دولار", "غير محدد"],
-    "en": ["Under $5,000", "$5,000 – $15,000", "$15,000 – $50,000", "Above $50,000", "Not specified"]
+    "ar": [
+      "٢٬٥٠٠ – ١٠٬٠٠٠ جنيه مصري",
+      "١٠٬٠٠٠ – ٢٥٬٠٠٠ جنيه مصري",
+      "٢٥٬٠٠٠ – ٥٠٬٠٠٠ جنيه مصري",
+      "٥٠٬٠٠٠ – ١٠٠٬٠٠٠ جنيه مصري",
+      "١٠٠٬٠٠٠ – ٢٥٠٬٠٠٠ جنيه مصري",
+      "٢٥٠٬٠٠٠ – ٥٠٠٬٠٠٠ جنيه مصري",
+      "غير محدد"
+    ],
+    "en": [
+      "EGP 2,500 – 10,000",
+      "EGP 10,000 – 25,000",
+      "EGP 25,000 – 50,000",
+      "EGP 50,000 – 100,000",
+      "EGP 100,000 – 250,000",
+      "EGP 250,000 – 500,000",
+      "Not specified"
+    ]
+  },
+  "contactChannels": {
+    "email": "Buytuk1@gmail.com",
+    "whatsapp": "201090006010",
+    "phoneDisplay": "01090006010"
   },
   "privacyNote": {
     "ar": "نجمع فقط ما نحتاجه للرد على طلبك. لا تُستخدم البيانات لأي غرض آخر، ولا تُشارك مع طرف ثالث.",

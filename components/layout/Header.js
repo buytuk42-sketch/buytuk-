@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LocalizedLink } from '@/components/ui/LocalizedLink';
 import MotionToggle from '@/components/ui/MotionToggle';
 
@@ -10,8 +10,23 @@ import MotionToggle from '@/components/ui/MotionToggle';
  */
 export default function Header({ locale, path = '' }) {
   const [open, setOpen] = useState(false);
+  const toggleRef = useRef(null);
   const isAr = locale === 'ar';
   const other = isAr ? 'en' : 'ar';
+
+  useEffect(() => {
+    if (!open) return undefined;
+
+    function handleKeyDown(event) {
+      if (event.key === 'Escape') {
+        setOpen(false);
+        toggleRef.current?.focus();
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [open]);
 
   const nav = isAr
     ? [
@@ -58,7 +73,12 @@ export default function Header({ locale, path = '' }) {
           <span className="brand__tag">{isAr ? 'نبني ما يأتي بعد ذلك' : 'We Build What Comes Next'}</span>
         </LocalizedLink>
 
-        <nav className="nav" data-open={open ? 'true' : 'false'} aria-label={isAr ? 'التنقل الرئيسي' : 'Primary'}>
+        <nav
+          id="primary-nav"
+          className="nav"
+          data-open={open ? 'true' : 'false'}
+          aria-label={isAr ? 'التنقل الرئيسي' : 'Primary'}
+        >
           {nav.map((item) => (
             <LocalizedLink
               key={item.href}
@@ -89,6 +109,7 @@ export default function Header({ locale, path = '' }) {
         </div>
 
         <button
+          ref={toggleRef}
           type="button"
           className="nav-toggle"
           aria-expanded={open}
