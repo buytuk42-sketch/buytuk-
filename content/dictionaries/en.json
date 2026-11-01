@@ -291,9 +291,13 @@
   "journey": {
     "eyebrow": "Company journey",
     "title": "Where we are",
-    "body": "Dates and milestones below are a proposed structure, not a verified history. Every row waits for client confirmation before it goes public.",
-    "disclaimer": "Proposed structure — awaiting client confirmation of dates and milestone wording.",
-    "statusLabel": "Status"
+    "body": "BuyTuk was founded in 2020. This timeline presents the company's beginning and areas of work in software and digital solutions without inventing launch or project dates.",
+    "ongoing": "Ongoing work",
+    "verified": "Confirmed founding",
+    "workstream": "Area of work",
+    "leadershipEyebrow": "Company leadership",
+    "managerName": "Eng. Ahmed Antar Ahmed",
+    "managerBio": "Director of BuyTuk, guiding the company's focus on software, platforms and digital solutions, and turning business needs into practical technology experiences."
   },
   "metrics": {
     "eyebrow": "Verified metrics",

@@ -126,11 +126,11 @@ distinct colour tokens, and each record additionally carries `verified` + `evide
 | # | Item | Why it blocks publication |
 | --- | --- | --- |
 | 1 | Verified product list (name, status, problem, features, tech, screenshots, case study) | The register currently holds clearly-labelled placeholder rows |
-| 2 | Confirmed company journey dates & milestone wording | Rows render as *proposed structure — awaiting confirmation* |
+| 2 | Detailed dates for later company milestones | The 2020 founding is confirmed; later entries are presented as ongoing work areas without invented dates |
 | 3 | Any provable metric **with its source** | Metrics section renders `—` and "pending documentation" by design |
 | 4 | Sector confirmations + customer references (written permission) | Industries are proposed focus areas; no logos published |
 | 5 | Internal production architecture (cloud, DB, model providers, CI/CD, observability) | Kept separate from the verifiable platform stack |
-| 6 | Legal entity details, official email/phone, registered address | Legal pages wired but unpublished; contact channels deliberately empty |
+| 6 | Legal entity details and registered address | Legal pages wired but unpublished; the supplied contact email and WhatsApp are published |
 | 7 | Social accounts (official URLs) | `Organization.sameAs` left empty rather than guessed |
 | 8 | Real screenshots & OG image | OG uses a generated SVG; screenshots marked as pending |
 

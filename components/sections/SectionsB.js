@@ -65,6 +65,9 @@ export function ProjectsSection({ locale, t, projects, products }) {
 
 export function JourneySection({ locale, t, journey }) {
   const rows = journey?.items || [];
+  const localize = (value) => (
+    value && typeof value === 'object' ? value[locale] || value.en : value
+  );
   return (
     <section className="section" id="journey">
       <div className="shell">
@@ -73,24 +76,26 @@ export function JourneySection({ locale, t, journey }) {
           <h2 className="h2">{t('journey.title')}</h2>
           <p className="lede">{t('journey.body')}</p>
         </Reveal>
-        <Reveal className="notice" style={{ marginBottom: 'var(--sp-6)' }}>
-          {t('journey.disclaimer')}
-        </Reveal>
         <div className="timeline">
           {rows.map((item, index) => (
             <Reveal key={item.phase || index} className="timeline__item">
-              <span className="timeline__year">{item.date || t('metrics.pendingShort')}</span>
-              <h3 className="h3" style={{ marginBlock: 'var(--sp-2)' }}>{item.label}</h3>
-              <p style={{ fontSize: 'var(--fs-sm)', margin: 0 }}>{item.detail}</p>
+              <span className="timeline__year">{item.date || t('journey.ongoing')}</span>
+              <h3 className="h3" style={{ marginBlock: 'var(--sp-2)' }}>{localize(item.label)}</h3>
+              <p style={{ fontSize: 'var(--fs-sm)', margin: 0 }}>{localize(item.detail)}</p>
               <div className="row" style={{ marginTop: 'var(--sp-3)' }}>
-                <span className="chip chip--unverified">
+                <span className={`chip ${item.type === 'milestone' ? 'chip--live' : 'chip--research'}`}>
                   <span className="chip__dot" aria-hidden="true" />
-                  {item.phase} · {t('labels.unverified')}
+                  {t(item.type === 'milestone' ? 'journey.verified' : 'journey.workstream')}
                 </span>
               </div>
             </Reveal>
           ))}
         </div>
+        <Reveal className="card card--feature" style={{ marginTop: 'var(--sp-7)' }}>
+          <span className="eyebrow">{t('journey.leadershipEyebrow')}</span>
+          <h3 className="h3" style={{ marginBlock: 'var(--sp-3)' }}>{t('journey.managerName')}</h3>
+          <p style={{ margin: 0 }}>{t('journey.managerBio')}</p>
+        </Reveal>
       </div>
     </section>
   );

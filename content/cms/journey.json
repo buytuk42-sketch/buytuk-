@@ -1,11 +1,76 @@
 {
-  "$comment": "Proposed structure only. The UI labels every row as awaiting client confirmation and never presents these dates as history.",
-  "confirmed": false,
+  "$comment": "The founding year was supplied by BuyTuk. Later entries describe ongoing work areas, not dated launches or client projects.",
+  "confirmed": true,
   "items": [
-    { "phase": "Foundation", "label": "Company founded", "detail": "Legal entity, founding team and initial scope.", "date": null, "verified": false },
-    { "phase": "Build", "label": "First products enter development", "detail": "Product register opened; first build cycles.", "date": null, "verified": false },
-    { "phase": "Education", "label": "BuyTuk Academy direction defined", "detail": "Evidence-chain model and AI-assistance principle.", "date": null, "verified": false },
-    { "phase": "Platform", "label": "Unified platform and design system", "detail": "One component system, one content layer, one motion language.", "date": null, "verified": false },
-    { "phase": "Global", "label": "Bilingual global presence", "detail": "Arabic RTL and English LTR flagship experience.", "date": null, "verified": false }
+    {
+      "phase": "Foundation",
+      "label": {
+        "ar": "تأسيس BuyTuk",
+        "en": "BuyTuk is founded"
+      },
+      "detail": {
+        "ar": "انطلاق الشركة عام 2020 للعمل في مجال التقنية وتطوير الحلول الرقمية.",
+        "en": "The company is established in 2020 to work in technology and digital solutions."
+      },
+      "date": "2020",
+      "verified": true,
+      "type": "milestone"
+    },
+    {
+      "phase": "Software",
+      "label": {
+        "ar": "تطوير البرمجيات",
+        "en": "Software development"
+      },
+      "detail": {
+        "ar": "بناء برامج وأنظمة رقمية تُصمم حول احتياجات العمل وسير إجراءاته.",
+        "en": "Building digital software and systems shaped around business needs and workflows."
+      },
+      "date": null,
+      "verified": true,
+      "type": "workstream"
+    },
+    {
+      "phase": "Web",
+      "label": {
+        "ar": "المواقع والمنصات الرقمية",
+        "en": "Websites and digital platforms"
+      },
+      "detail": {
+        "ar": "تصميم وتطوير مواقع ومنصات ويب متجاوبة وتجارب رقمية باللغة العربية والإنجليزية.",
+        "en": "Designing and developing responsive websites, web platforms and Arabic-English digital experiences."
+      },
+      "date": null,
+      "verified": true,
+      "type": "workstream"
+    },
+    {
+      "phase": "Applications",
+      "label": {
+        "ar": "التطبيقات والحلول المتكاملة",
+        "en": "Applications and integrated solutions"
+      },
+      "detail": {
+        "ar": "تطوير تطبيقات وحلول مخصصة، وربط الخدمات والأنظمة لتلبية متطلبات المشاريع.",
+        "en": "Developing tailored applications and solutions, and connecting services and systems to meet project needs."
+      },
+      "date": null,
+      "verified": true,
+      "type": "workstream"
+    },
+    {
+      "phase": "Products",
+      "label": {
+        "ar": "المنتجات والتحسين المستمر",
+        "en": "Products and continuous improvement"
+      },
+      "detail": {
+        "ar": "العمل على منتجات ومنصات رقمية وتطويرها تدريجيًا، مع استكشاف تطبيقات الذكاء الاصطناعي.",
+        "en": "Working on digital products and platforms, improving them iteratively and exploring applied AI."
+      },
+      "date": null,
+      "verified": true,
+      "type": "workstream"
+    }
   ]
 }
